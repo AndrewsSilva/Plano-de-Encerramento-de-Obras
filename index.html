@@ -66,7 +66,10 @@ main{position:relative;margin-top:-56px;padding-bottom:48px}
 .alert.ok .ic{background:var(--s-conc);animation:none}
 
 /* FILTERS */
-.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--card);border-radius:var(--radius);padding:12px;box-shadow:var(--shadow);margin-bottom:18px;position:sticky;top:8px;z-index:20}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--card);border-radius:var(--radius);padding:12px;box-shadow:var(--shadow);margin-bottom:18px;position:relative;z-index:20}
+.f-more{display:contents}
+.f-toggle{display:none}
+@media (min-width:961px) and (min-height:700px){.filters{position:sticky;top:8px}}
 .search{flex:1 1 240px;display:flex;align-items:center;gap:8px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:0 12px}
 .search input{border:0;background:transparent;outline:0;padding:10px 0;width:100%}
 .filters select{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:9px 12px;outline:0;cursor:pointer;max-width:100%}
@@ -315,6 +318,82 @@ details.gh summary{cursor:pointer;font-weight:700}
   .xlab{gap:6px}.xlab span{flex-basis:36px}
   .hb.tall{grid-template-columns:130px 1fr 34px}
 }
+/* ===== CELULAR EM PÉ / TELAS ESTREITAS ===== */
+@media (max-width:760px){
+  .filters{gap:8px;padding:10px}
+  .search{flex:1 1 0;min-width:0}
+  .f-toggle{display:inline-flex;align-items:center;gap:6px;flex:none;border:1px solid var(--line);background:var(--soft);border-radius:12px;padding:9px 12px;font-weight:700;cursor:pointer}
+  .f-toggle b{background:var(--blue);color:#fff;border-radius:999px;font-size:11px;min-width:18px;height:18px;display:inline-grid;place-items:center;padding:0 5px}
+  .f-toggle b:empty{display:none}
+  .filters.open .f-toggle{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .f-more{display:none}
+  .filters.open .f-more{display:flex;flex-direction:column;gap:8px;width:100%}
+  .f-more select,.filters select.sel-obra{width:100%;max-width:none;flex:none}
+  .f-more .clear{align-self:flex-start}
+}
+@media (max-width:640px){
+  .hero::before{background:linear-gradient(180deg,rgba(6,28,92,.94) 0%,rgba(9,55,190,.86) 60%,rgba(9,70,220,.7) 100%)}
+  .hero{background-position:0% 50%}
+  .hero .wrap{padding-top:52px;padding-bottom:70px;min-height:0}
+  .hero h1{font-size:28px}
+  .hero p.lead{font-size:13.5px}
+  .hero-actions .btn{flex:1;justify-content:center}
+  .upd-btn{background:rgba(255,255,255,.85);opacity:1}
+  main{margin-top:-46px}
+  .alert{padding:14px}
+  .alert .btn{width:100%;justify-content:center}
+  .kpi .val{font-size:26px}
+  .card{padding:14px}
+  .card .hd{margin-bottom:12px}
+  .donut-wrap{flex-direction:column;align-items:stretch}
+  .donut{align-self:center}
+  .legend{min-width:0}
+  .cols{height:170px;gap:4px;padding:0}
+  .col{flex-basis:26px}
+  .xlab{gap:4px;padding-left:0;padding-right:0}
+  .xlab span{flex-basis:26px;font-size:10px}
+  .hb.tall{grid-template-columns:110px 1fr 32px;font-size:12px}
+  .cob-grid{grid-template-columns:1fr}
+  .resp-grid{grid-template-columns:1fr}
+  .tbl-tools{width:100%}
+  .tbl-tools .btn{flex:1;justify-content:center}
+  .sec-title h2{font-size:18px}
+  /* tabela de obras vira cartões */
+  .tbl-wrap{border:0;overflow:visible;border-radius:0}
+  #tbl{min-width:0;display:block}
+  #tbl > thead{display:none}
+  #tbl > tbody{display:block}
+  #tbl tr.ob{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px;padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:var(--card)}
+  #tbl tr.ob.open{border-radius:14px 14px 0 0;margin-bottom:0}
+  #tbl tr.ob > td{display:block;padding:0;border:0;font-size:12.5px}
+  #tbl tr.ob > td.c-caret{display:none}
+  #tbl tr.ob > td.c-ob,#tbl tr.ob > td.c-prog{grid-column:1 / -1}
+  #tbl tr.ob > td.c-pend{text-align:right}
+  #tbl tr.ob > td.c-n{text-align:left!important}
+  #tbl td[data-l]::before{content:attr(data-l);display:block;font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:2px}
+  .oname{max-width:none}
+  #tbl tr.det{display:block;margin-bottom:10px}
+  #tbl tr.det > td{display:block;border:1px solid var(--line);border-top:0;border-radius:0 0 14px 14px}
+  .det-in{padding:8px}
+  .det-in table{min-width:0;display:block;border:0;background:transparent}
+  .det-in thead{display:none}
+  .det-in tbody{display:flex;flex-direction:column;gap:8px}
+  .det-in tr{display:grid;grid-template-columns:1fr 1fr;gap:6px 10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px}
+  .det-in td{display:block;padding:0;border:0;background:transparent!important}
+  .det-in td.d-acao,.det-in td.d-obs,.det-in td.mono{grid-column:1 / -1}
+  .det-in td.d-obs:empty{display:none}
+  .det-in td.mono{font-size:11px}
+  .modal{padding:0;align-items:flex-end}
+  .mbox{border-radius:20px 20px 0 0;max-height:92vh}
+  .mft .btn{flex:1;justify-content:center}
+}
+@media (max-width:380px){
+  .kpis{gap:8px}
+  .kpi{padding:12px}
+  .kpi .val{font-size:22px}
+  .hero h1{font-size:24px}
+}
+
 /* Celular na horizontal: pouca altura -> cabeçalho compacto e filtros sem fixar */
 @media (orientation:landscape) and (max-height:540px){
   .hero .wrap{padding-top:16px;padding-bottom:58px;min-height:0}
@@ -390,11 +469,17 @@ details.gh summary{cursor:pointer;font-weight:700}
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7D8FA8" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <input id="fQ" type="search" placeholder="Buscar obra, ação, PEP ou responsável…" autocomplete="off">
     </label>
+    <button class="f-toggle" id="fTog" type="button" aria-expanded="false" aria-controls="fMore">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+      Filtros <b id="fCount"></b>
+    </button>
+    <div class="f-more" id="fMore">
     <select id="fObra" aria-label="Obra" class="sel-obra"><option value="">Todas as obras</option></select>
     <select id="fResp" aria-label="Responsável"><option value="">Todos os responsáveis</option></select>
     <select id="fTipo" aria-label="Tipo de ação"><option value="">Todos os tipos de ação</option></select>
     <div class="chips" id="fSt"></div>
     <button class="clear" id="fClr" type="button">Limpar filtros</button>
+    </div>
   </div>
 
   <section class="kpis" id="kpis"></section>
@@ -2879,6 +2964,8 @@ function render(){
 function renderChips(){
   $('#fSt').innerHTML = ST_ORDER.map(k => `<button type="button" class="chip ${F.st.has(k)?'on':''}" data-st="${k}"><i style="background:${ST[k].color}"></i>${ST[k].label}</button>`).join('') +
     (F.prox ? `<button type="button" class="chip on" data-prox="1">📆 Vencem em 7 dias ✕</button>` : '');
+  const nf = [F.obra,F.resp,F.tipo].filter(Boolean).length + F.st.size + (F.prox?1:0);
+  $('#fCount').textContent = nf ? nf : '';
 }
 
 function renderAlert(items){
@@ -3029,15 +3116,15 @@ function renderTable(){
   $('#tbl tbody').innerHTML = rows.map(o => {
     const open = openSet.has(o.obra);
     return `<tr class="ob is-${o.st} ${open?'open':''}" data-ob="${esc(o.obra)}">
-      <td><span class="caret">▶</span></td>
-      <td><div class="oname"><span class="tag-o o-${o.oKey}">${o.oLabel}</span>${esc(o.nome)}<small>${o.peps} PEP${o.peps>1?'s':''}${o.ano?' · '+o.ano:''}</small></div></td>
-      <td data-tip="${esc(o.resps.join(' · '))}">${o.resps.slice(0,2).map(r=>`<div style="white-space:nowrap">${esc(r)}</div>`).join('')}${o.resps.length>2?`<small style="color:var(--muted);font-weight:700">+${o.resps.length-2} responsáve${o.resps.length-2>1?'is':'l'}</small>`:''}</td>
-      <td style="font-weight:800;text-align:center">${o.n}</td>
-      <td class="dt">${fDtY(o.ini)}</td>
-      <td class="dt"><span class="${o.st==='atr'?'bad':''}">${fDtY(o.fim)}</span></td>
-      <td><div class="prog" data-tip="${o.nConc} de ${o.n} ações concluídas"><span class="tr"><b style="width:${o.prog}%"></b></span><span>${o.prog}%</span></div></td>
-      <td>${pill(o.st)}</td>
-      <td>${o.nAtr?`<span class="days">${o.nAtr} atrasada${o.nAtr>1?'s':''}</span>`:''}${o.nAten?`<div style="color:var(--s-aten);font-weight:700;white-space:nowrap">${o.nAten} em atenção</div>`:''}${!o.nAtr&&!o.nAten?'<span style="color:var(--muted)">—</span>':''}</td>
+      <td class="c-caret"><span class="caret">▶</span></td>
+      <td class="c-ob"><div class="oname"><span class="tag-o o-${o.oKey}">${o.oLabel}</span>${esc(o.nome)}<small>${o.peps} PEP${o.peps>1?'s':''}${o.ano?' · '+o.ano:''}</small></div></td>
+      <td data-l="Responsáveis" class="c-resp" data-tip="${esc(o.resps.join(' · '))}">${o.resps.slice(0,2).map(r=>`<div style="white-space:nowrap">${esc(r)}</div>`).join('')}${o.resps.length>2?`<small style="color:var(--muted);font-weight:700">+${o.resps.length-2} responsáve${o.resps.length-2>1?'is':'l'}</small>`:''}</td>
+      <td data-l="Ações" class="c-n" style="font-weight:800;text-align:center">${o.n}</td>
+      <td data-l="Início" class="dt">${fDtY(o.ini)}</td>
+      <td data-l="Término" class="dt"><span class="${o.st==='atr'?'bad':''}">${fDtY(o.fim)}</span></td>
+      <td class="c-prog"><div class="prog" data-tip="${o.nConc} de ${o.n} ações concluídas"><span class="tr"><b style="width:${o.prog}%"></b></span><span>${o.prog}%</span></div></td>
+      <td class="c-st">${pill(o.st)}</td>
+      <td class="c-pend">${o.nAtr?`<span class="days">${o.nAtr} atrasada${o.nAtr>1?'s':''}</span>`:''}${o.nAten?`<div style="color:var(--s-aten);font-weight:700;white-space:nowrap">${o.nAten} em atenção</div>`:''}${!o.nAtr&&!o.nAten?'<span style="color:var(--muted)">—</span>':''}</td>
     </tr>${open?detail(o):''}`;
   }).join('');
 }
@@ -3045,10 +3132,10 @@ function detail(o){
   return `<tr class="det"><td colspan="9"><div class="det-in"><table>
     <thead><tr><th>Ação</th><th>Responsável</th><th>Início</th><th>Término</th><th>Status (planilha)</th><th>Situação</th><th>Observação</th><th>PEP</th></tr></thead>
     <tbody>${o.itens.map(i=>`<tr>
-      <td style="font-weight:600">${esc(i.acao)}</td><td>${esc(i.resp)}</td>
-      <td class="dt">${fDtY(i.ini)}</td><td class="dt"><span class="${i.st==='atr'?'bad':''}">${fDtY(i.fim)}</span></td>
-      <td>${esc(tc(i.status||'—'))}</td><td>${pill(i.st)}</td>
-      <td style="color:var(--ink2);font-size:12px">${i.motivos.map(esc).join('<br>')||'—'}</td><td class="mono">${esc(i.pep)}</td></tr>`).join('')}</tbody></table></div></td></tr>`;
+      <td class="d-acao" style="font-weight:600">${esc(i.acao)}</td><td data-l="Responsável">${esc(i.resp)}</td>
+      <td data-l="Início" class="dt">${fDtY(i.ini)}</td><td data-l="Término" class="dt"><span class="${i.st==='atr'?'bad':''}">${fDtY(i.fim)}</span></td>
+      <td data-l="Status planilha">${esc(tc(i.status||'—'))}</td><td class="d-st">${pill(i.st)}</td>
+      <td class="d-obs" style="color:var(--ink2);font-size:12px">${i.motivos.map(esc).join('<br>')}</td><td data-l="PEP" class="mono">${esc(i.pep)}</td></tr>`).join('')}</tbody></table></div></td></tr>`;
 }
 
 function renderRules(){
@@ -3064,6 +3151,7 @@ function renderRules(){
 }
 
 /* ---------- EVENTOS ---------- */
+$('#fTog').addEventListener('click', () => { const f = document.querySelector('.filters'); const o = f.classList.toggle('open'); $('#fTog').setAttribute('aria-expanded', o); });
 let qT;
 $('#fQ').addEventListener('input', e => { clearTimeout(qT); qT = setTimeout(()=>{ F.q = e.target.value; render(); }, 150); });
 $('#fObra').addEventListener('change', e => { F.obra = e.target.value; render(); });
