@@ -1,7 +1,7 @@
 {
- "fonte": "Plano Ação ENTE PI Rev.0.xlsx",
+ "fonte": "Plano Ação ENTE PI Rev.0 (1).xlsx",
  "aba": "PLANO",
- "atualizadoEm": "2026-11-17T11:50:04",
+ "atualizadoEm": "2026-11-17T18:01:22",
  "registros": [
   {
    "pep": "PI-2530108BCA0.A.0001.I",
@@ -10,7 +10,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-23",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2530108BCA0.A.0001.I",
@@ -19,7 +19,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-25",
    "fim": "2026-12-04",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2530108BCA0.A.0001.I",
@@ -73,7 +73,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-23",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2530108BCA0.A.0002.I",
@@ -82,7 +82,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-25",
    "fim": "2026-12-04",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2530108BCA0.A.0002.I",
@@ -100,7 +100,7 @@
    "resp": "Hugo Sabino",
    "ini": "2026-11-23",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2530108BCA0.A.1001.I",
@@ -253,7 +253,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-23",
    "fim": "2026-11-27",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2430808CAT1.J.0002.I",
@@ -262,7 +262,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-23",
    "fim": "2026-11-27",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2430808CAT1.J.0001.I",
@@ -685,7 +685,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-25",
    "fim": "2026-12-04",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2531308MOP0.A.0002.I",
@@ -694,7 +694,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-25",
    "fim": "2026-12-04",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2531308MOP0.A.0001.I",
@@ -730,7 +730,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-23",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2631308MOP0.A.0002.I",
@@ -739,7 +739,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-23",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2631308MOP0.A.0001.I",
@@ -748,7 +748,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-25",
    "fim": "2026-12-04",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2631308MOP0.A.0002.I",
@@ -757,7 +757,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-25",
    "fim": "2026-12-04",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2631308MOP0.A.0001.I",
@@ -1000,7 +1000,7 @@
    "resp": "Thiago Rezende",
    "ini": "2026-11-23",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2630008BAY0.C.0002.I",
@@ -1009,7 +1009,7 @@
    "resp": "Thiago Rezende",
    "ini": "2026-11-23",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2630008BAY0.C.0001.I",
@@ -1090,7 +1090,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-23",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2630008BAY0.F.0002.I",
@@ -1099,7 +1099,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-23",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2630008BAY0.F.0001.I",
@@ -1108,7 +1108,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-25",
    "fim": "2026-12-04",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2630008BAY0.F.0002.I",
@@ -1117,7 +1117,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-25",
    "fim": "2026-12-04",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2630008BAY0.F.0001.I",
@@ -1225,7 +1225,7 @@
    "resp": "Hugo Sabino",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2562508JUN0.B.0003.I",
@@ -1234,7 +1234,7 @@
    "resp": "Hugo Sabino",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2562508JUN0.B.0001.I",
@@ -1279,7 +1279,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2531308MOP0.G.0002.I",
@@ -1288,7 +1288,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2531308MOP0.G.1001.I",
@@ -1405,7 +1405,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-16",
    "fim": "2026-11-19",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2430808CAT1.H.0002.I",
@@ -1414,7 +1414,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-16",
    "fim": "2026-11-19",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2430808CAT1.H.0001.I",
@@ -1635,15 +1635,6 @@
   {
    "pep": "PI-2430808CAT1.G.0001.I",
    "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
-   "acao": "Realizar conciliação física-contábil - ELM.",
-   "resp": "Luiz Lima",
-   "ini": "2026-11-16",
-   "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
-  },
-  {
-   "pep": "PI-2430808CAT1.G.0001.I",
-   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
    "acao": "Realizar conciliação física-contábil - AUT.",
    "resp": "Rafael Barbosa",
    "ini": "2026-11-16",
@@ -1711,7 +1702,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2530808CAT0.C.0002.I",
@@ -1720,7 +1711,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2530808CAT0.C.0001.I",
@@ -1801,7 +1792,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2531408RNV0.I.0002.I",
@@ -1810,7 +1801,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2531408RNV0.I.0001.I",
@@ -1936,7 +1927,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2530008BAY0.A.0002.I",
@@ -1945,7 +1936,7 @@
    "resp": "Luiz Lima",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "EM ANDAMENTO"
   },
   {
    "pep": "PI-2530008BAY0.A.0001.I",
@@ -2188,7 +2179,7 @@
    "resp": "Hugo Sabino",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
-   "status": "NÃO INICIADO"
+   "status": "CONCLUÍDO"
   },
   {
    "pep": "PI-2562408STA0.B.0001.I",
@@ -2224,6 +2215,15 @@
    "resp": "Hugo Sabino",
    "ini": "2026-12-05",
    "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "-",
+   "obra": "OBRAS - GERAL",
+   "acao": "Solicitar priorização de baixa de todas as NFs aplicadas até o dia 24/11",
+   "resp": "ALICSSON",
+   "ini": "2026-11-25",
+   "fim": "2026-11-25",
    "status": "NÃO INICIADO"
   }
  ]
