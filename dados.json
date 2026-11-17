@@ -1,7 +1,7 @@
 {
  "fonte": "Plano Ação ENTE PI Rev.0 (1).xlsx",
  "aba": "PLANO",
- "atualizadoEm": "2026-11-17T18:01:22",
+ "atualizadoEm": "2026-11-17T18:02:40",
  "registros": [
   {
    "pep": "PI-2530108BCA0.A.0001.I",
@@ -1879,7 +1879,7 @@
    "pep": "PI-2630208AMP0.A.1001.I",
    "obra": "PLANEJAMENTO - AMPLIAÇÃO DE POTÊNCIA - SE VALENÇA - 2027",
    "acao": "Cria novo PEP e transferir todos os custos PI-2630208AMP0.A.0001.I",
-   "resp": "Mateus",
+   "resp": "Mateus Carlos",
    "ini": "2026-11-16",
    "fim": "2026-11-24",
    "status": "NÃO INICIADO"
@@ -2215,15 +2215,6 @@
    "resp": "Hugo Sabino",
    "ini": "2026-12-05",
    "fim": "2026-12-05",
-   "status": "NÃO INICIADO"
-  },
-  {
-   "pep": "-",
-   "obra": "OBRAS - GERAL",
-   "acao": "Solicitar priorização de baixa de todas as NFs aplicadas até o dia 24/11",
-   "resp": "ALICSSON",
-   "ini": "2026-11-25",
-   "fim": "2026-11-25",
    "status": "NÃO INICIADO"
   }
  ]
