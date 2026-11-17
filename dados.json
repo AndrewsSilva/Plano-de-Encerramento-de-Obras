@@ -1,0 +1,2230 @@
+{
+ "fonte": "Plano Ação ENTE PI Rev.0.xlsx",
+ "aba": "PLANO",
+ "atualizadoEm": "2026-11-17T10:41:58",
+ "registros": [
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0002.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0002.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0002.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.1001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.1001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.D.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-20",
+   "status": "CONCLUÍDO"
+  },
+  {
+   "pep": "PI-2530808CAT0.D.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-20",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.D.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-27",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.D.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-20",
+   "status": "CONCLUÍDO"
+  },
+  {
+   "pep": "PI-2530808CAT0.D.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-27",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-13",
+   "fim": "2026-11-20",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0002.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-13",
+   "fim": "2026-11-20",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0002.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2532008CAP0.A.0001.I",
+   "obra": "CUSTOS DE APOIO EM PROJETOS - 2025",
+   "acao": "Realizar rateio nos PEPs.",
+   "resp": "Mateus Carlos",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2532008CAP0.B.0001.I",
+   "obra": "CUSTOS DE APOIO EM PROJETOS - 2025",
+   "acao": "Realizar rateio nos PEPs.",
+   "resp": "Mateus Carlos",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-27",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0002.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-27",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-17",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-17",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-17",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-17",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-30",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0002.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-30",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0002.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0002.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0002.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE OEIRAS (PI) - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.A.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE OEIRAS (PI) - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE OEIRAS (PI) - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE OEIRAS (PI) - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.A.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE OEIRAS (PI) - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.D.0001.I",
+   "obra": "PLANEJAMENTO - ENTRADA DE LINHA - SE BURITI GRANDE - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.D.0002.I",
+   "obra": "PLANEJAMENTO - ENTRADA DE LINHA - SE BURITI GRANDE - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.D.0001.I",
+   "obra": "PLANEJAMENTO - ENTRADA DE LINHA - SE BURITI GRANDE - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.D.0001.I",
+   "obra": "PLANEJAMENTO - ENTRADA DE LINHA - SE BURITI GRANDE - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.D.0002.I",
+   "obra": "PLANEJAMENTO - ENTRADA DE LINHA - SE BURITI GRANDE - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0003.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Realizar pagamento final - FUNDIÁRIO",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Realizar conciliação física-contábil - LD",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-24",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Realizar pagamento final - COMS. LD",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0003.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.1001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - LD.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.1001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar conciliação física-contábil - LD.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.1001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.1001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-19",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-19",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.1001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.1001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.F.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PORTO ALEGRE DO PIAUÍ - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-17",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.F.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PORTO ALEGRE DO PIAUÍ - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.F.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PORTO ALEGRE DO PIAUÍ - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.R.0001.I",
+   "obra": "CLIENTE - ENTRADA DE LINHA - SE MIGUEL ALVES - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.R.0002.I",
+   "obra": "CLIENTE - ENTRADA DE LINHA - SE MIGUEL ALVES - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.R.0001.I",
+   "obra": "CLIENTE - ENTRADA DE LINHA - SE MIGUEL ALVES - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2330608OEI0.A.0001.I",
+   "obra": "MANUTENÇÃO - ADEQUAÇÃO LD - LD FLORIANO - OEIRAS - 2024",
+   "acao": "Verificar status DFEC",
+   "resp": "Rodrigo Siqueira",
+   "ini": "2026-11-17",
+   "fim": "2026-11-17",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-04",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-04",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.L.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE SÃO JOÃO DO PIAUÍ - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.L.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE SÃO JOÃO DO PIAUÍ - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.L.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE SÃO JOÃO DO PIAUÍ - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.K.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE URUÇUÍ II - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630208AMP0.A.1001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE POTÊNCIA - SE VALENÇA - 2027",
+   "acao": "Cria novo PEP e transferir todos os custos PI-2630208AMP0.A.0001.I",
+   "resp": "Mateus",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630208AMP0.A.1001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE POTÊNCIA - SE VALENÇA - 2027",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-24",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630208AMP0.A.0002.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE POTÊNCIA - SE VALENÇA - 2027",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-24",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630208AMP0.A.1001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE POTÊNCIA - SE VALENÇA - 2027",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-04",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630208AMP0.A.0002.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE POTÊNCIA - SE VALENÇA - 2027",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-04",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0003.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Realizar pagamento final - FUNDIÁRIO",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Realizar conciliação física-contábil - LD",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-24",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Realizar pagamento final - COMS. LD",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0003.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  }
+ ]
+}

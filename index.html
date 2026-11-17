@@ -1,0 +1,3257 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0B5CFF">
+<title>Plano de Encerramento de Obras · Equatorial Piauí</title>
+<meta name="description" content="Painel do Plano de Ação ENTE – Equatorial Piauí: obras, ações, responsáveis, prazos e alertas de atraso.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: light;
+  --navy:#0A2540; --navy2:#0F3460; --blue:#0B5CFF; --blue2:#1E7BFF; --cyan:#00B8D9; --mint:#7FF0D2; --violet:#4B3BD6;
+  --bg:#EEF4FA; --card:#FFFFFF; --ink:#0A2540; --ink2:#44566F; --muted:#7D8FA8; --line:#E1E9F2; --soft:#F5F9FD;
+  --s-conc:#0E9F6E; --s-dia:#1668E3; --s-aten:#C98408; --s-atr:#E5484D; --s-par:#8E1B3A; --s-sp:#8A94A6;
+  --radius:18px; --shadow:0 1px 2px rgba(10,37,64,.06),0 8px 24px -12px rgba(10,37,64,.18);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased}
+button,input,select{font:inherit;color:inherit}
+.wrap{max-width:1440px;margin:0 auto;padding:0 24px}
+@media (max-width:640px){.wrap{padding:0 16px}}
+
+/* HERO */
+.hero{position:relative;color:#fff;background:#0B5CFF url("assets/banner.jpg") 78% 50%/cover no-repeat;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,28,92,.92) 0%,rgba(9,60,200,.70) 38%,rgba(10,90,230,.12) 62%,rgba(0,0,0,0) 75%)}
+.hero .wrap{position:relative;padding-top:34px;padding-bottom:84px;min-height:300px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.16em;font-weight:700;text-transform:uppercase;opacity:.92}
+.eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 4px rgba(127,240,210,.25)}
+.hero h1{font-size:clamp(28px,4vw,46px);line-height:1.05;margin:14px 0 10px;font-weight:800;letter-spacing:-.02em;max-width:640px}
+.hero h1 span{background:linear-gradient(90deg,#fff,#9FF5E0);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{margin:0;max-width:560px;font-size:15px;opacity:.9}
+.hero-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.chip-glass{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(8px);font-size:12.5px;font-weight:500}
+.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.btn{text-decoration:none;display:inline-flex;align-items:center;gap:8px;border:0;cursor:pointer;border-radius:12px;padding:10px 16px;font-weight:700;font-size:13.5px;transition:transform .15s,box-shadow .15s,background .15s}
+.btn:active{transform:translateY(1px)}
+.btn-white{background:#fff;color:var(--blue);box-shadow:0 6px 20px -8px rgba(0,0,0,.4)}
+.btn-white:hover{box-shadow:0 10px 26px -8px rgba(0,0,0,.45)}
+.btn-ghost{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.35)}
+.btn-ghost:hover{background:rgba(255,255,255,.22)}
+.btn-primary{background:var(--blue);color:#fff}
+.btn-primary:hover{background:#0050E6}
+.btn-light{background:var(--soft);color:var(--ink);border:1px solid var(--line)}
+.btn-light:hover{background:#EAF2FB}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn svg{width:16px;height:16px}
+
+.upd-btn{position:absolute;top:14px;right:max(24px,env(safe-area-inset-right));z-index:2;display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:999px;border:1px solid rgba(10,37,64,.16);background:rgba(255,255,255,.45);backdrop-filter:blur(6px);color:#0A2540;font-size:12px;font-weight:700;cursor:pointer;opacity:.75;transition:opacity .15s,background .15s}
+.upd-btn:hover,.upd-btn:focus-visible{opacity:1;background:rgba(255,255,255,.85)}
+.upd-btn svg{width:14px;height:14px}
+@media (max-width:640px){.upd-btn span{display:none}.upd-btn{padding:7px}}
+main{position:relative;margin-top:-56px;padding-bottom:48px}
+
+/* ALERT */
+.alert{display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:linear-gradient(100deg,#fff 0%,#FFF4F4 100%);border:1px solid #F7C9CB;border-left:6px solid var(--s-atr);border-radius:var(--radius);padding:16px 20px;box-shadow:var(--shadow);margin-bottom:18px}
+.alert .ic{flex:none;width:44px;height:44px;border-radius:12px;background:var(--s-atr);color:#fff;display:grid;place-items:center;animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(229,72,77,.45)}70%{box-shadow:0 0 0 12px rgba(229,72,77,0)}100%{box-shadow:0 0 0 0 rgba(229,72,77,0)}}
+.alert .tx{flex:1;min-width:220px}
+.alert .tx b{font-size:16px;display:block}
+.alert .tx span{color:var(--ink2)}
+.alert.ok{border-color:#BFE8D6;border-left-color:var(--s-conc);background:linear-gradient(100deg,#fff,#F0FBF6)}
+.alert.ok .ic{background:var(--s-conc);animation:none}
+
+/* FILTERS */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--card);border-radius:var(--radius);padding:12px;box-shadow:var(--shadow);margin-bottom:18px;position:sticky;top:8px;z-index:20}
+.search{flex:1 1 240px;display:flex;align-items:center;gap:8px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:0 12px}
+.search input{border:0;background:transparent;outline:0;padding:10px 0;width:100%}
+.filters select{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:9px 12px;outline:0;cursor:pointer;max-width:100%}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:7px 11px;border-radius:999px;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:12.5px;font-weight:600;color:var(--ink2);transition:all .15s}
+.chip i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.chip.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.chip:hover{border-color:var(--muted)}
+.filters select.sel-obra{flex:1 1 320px;max-width:480px;text-overflow:ellipsis}
+.clear{font-size:12.5px;color:var(--blue);background:none;border:0;cursor:pointer;font-weight:700;padding:6px}
+
+/* KPIs */
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-bottom:18px}
+@media (max-width:1200px){.kpis{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.kpi{background:var(--card);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.kpi .lbl{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:flex;align-items:center;gap:6px}
+.kpi .val{font-size:32px;font-weight:800;letter-spacing:-.02em;margin:6px 0 2px;font-variant-numeric:tabular-nums}
+.kpi .val small{font-size:16px;font-weight:700;color:var(--ink2)}
+.kpi .sub{font-size:12.5px;color:var(--ink2)}
+.kpi .bar{height:6px;border-radius:6px;background:#E8EFF7;margin-top:10px;overflow:hidden}
+.kpi .bar b{display:block;height:100%;border-radius:6px}
+.kpi.accent{background:linear-gradient(135deg,var(--blue) 0%,#0A7BFF 55%,var(--cyan) 100%);color:#fff}
+.kpi.accent .lbl,.kpi.accent .sub,.kpi.accent .val small{color:rgba(255,255,255,.85)}
+.kpi.accent .bar{background:rgba(255,255,255,.25)}
+.kpi.danger{border-top:4px solid var(--s-atr)}
+.kpi.click{cursor:pointer;transition:transform .15s,box-shadow .15s}
+.kpi.click:hover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(10,37,64,.06),0 16px 32px -14px rgba(10,37,64,.32)}
+.kpi.click:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.kpi.active{outline:3px solid var(--blue);outline-offset:2px}
+.kpi .go{display:block;margin-top:8px;font-size:11.5px;font-weight:800;color:var(--blue);opacity:0;transform:translateY(-2px);transition:all .15s}
+.kpi.accent .go{color:#fff}
+.kpi.click:hover .go,.kpi.active .go{opacity:1;transform:none}
+.kpi .tag{position:absolute;top:14px;right:14px;font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px}
+
+/* GRID / CARDS */
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-bottom:18px}
+.card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;min-width:0}
+.c4{grid-column:span 4}.c5{grid-column:span 5}.c6{grid-column:span 6}.c7{grid-column:span 7}.c8{grid-column:span 8}.c12{grid-column:span 12}
+@media (max-width:1100px){.c4,.c5,.c6,.c7,.c8{grid-column:span 12}}
+.card h2{font-size:16px;margin:0;font-weight:800;letter-spacing:-.01em}
+.card .hd{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+.card .hd p{margin:3px 0 0;color:var(--muted);font-size:12.5px}
+.sec-title{display:flex;align-items:center;gap:10px;margin:28px 0 12px}
+.sec-title h2{margin:0;font-size:20px;font-weight:800;letter-spacing:-.01em}
+.sec-title .ln{flex:1;height:1px;background:linear-gradient(90deg,#C9D7E8,transparent)}
+.sec-title .badge{background:var(--navy);color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px}
+
+/* DONUT */
+.donut-wrap{display:flex;align-items:center;gap:22px;flex-wrap:wrap;justify-content:center}
+.donut{position:relative;width:200px;height:200px;flex:none}
+.donut svg{width:100%;height:100%;transform:rotate(-90deg)}
+.donut .ctr{position:absolute;inset:0;display:grid;place-items:center;text-align:center;pointer-events:none}
+.donut .ctr b{font-size:34px;font-weight:800;display:block;line-height:1}
+.donut .ctr span{font-size:12px;color:var(--muted);font-weight:600}
+.legend{display:flex;flex-direction:column;gap:6px;min-width:190px;flex:1}
+.lg{display:flex;align-items:center;gap:10px;padding:6px 8px;border-radius:10px;cursor:pointer}
+.lg:hover{background:var(--soft)}
+.lg .sw{width:12px;height:12px;border-radius:4px;flex:none}
+.lg .nm{flex:1;font-weight:600;color:var(--ink2)}
+.lg .ct{font-weight:800;font-variant-numeric:tabular-nums}
+.lg .pc{width:48px;text-align:right;color:var(--muted);font-variant-numeric:tabular-nums;font-size:12.5px}
+
+/* STACKED */
+.stk-row{display:grid;grid-template-columns:150px 1fr 54px;gap:12px;align-items:center;margin-bottom:12px}
+.stk-row .nm{font-weight:700;font-size:13px}
+.stk-row .nm small{display:block;color:var(--muted);font-weight:500;font-size:11.5px}
+.stk{display:flex;gap:2px;height:22px}
+.stk span{display:block;height:100%;min-width:3px}
+.stk span:first-child{border-radius:6px 0 0 6px}.stk span:last-child{border-radius:0 6px 6px 0}
+.stk span:only-child{border-radius:6px}
+.stk-row .pc{font-weight:800;text-align:right;font-variant-numeric:tabular-nums}
+@media (max-width:640px){.stk-row{grid-template-columns:96px 1fr 44px}}
+.mini-legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--ink2);margin-top:6px}
+.mini-legend span{display:inline-flex;align-items:center;gap:6px}
+.mini-legend i{width:10px;height:10px;border-radius:3px;display:inline-block}
+
+/* COLUMNS (timeline) */
+.cols{display:flex;align-items:flex-end;gap:10px;height:220px;padding:0 4px;border-bottom:1px solid var(--line);position:relative;overflow-x:auto}
+.col{flex:1 0 44px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;position:relative}
+.col .bars{display:flex;gap:3px;align-items:flex-end;height:calc(100% - 22px);width:100%;justify-content:center}
+.col .bars span{width:42%;max-width:20px;border-radius:4px 4px 0 0;min-height:2px;transition:filter .15s}
+.col .bars span:hover{filter:brightness(1.12)}
+.col .num{font-size:11px;font-weight:700;color:var(--ink2);height:18px}
+.col.now{background:linear-gradient(180deg,rgba(11,92,255,0) 0%,rgba(11,92,255,.07) 100%);border-radius:10px 10px 0 0}
+.col.now::after{content:"Hoje";position:absolute;top:0;font-size:10px;font-weight:800;color:var(--blue);background:#E5EEFF;padding:1px 6px;border-radius:6px}
+.xlab{display:flex;gap:10px;padding:6px 4px 0;overflow:hidden}
+.xlab span{flex:1 0 44px;text-align:center;font-size:11px;color:var(--muted);font-weight:600}
+
+/* HBAR */
+.hb{display:grid;grid-template-columns:170px 1fr 40px;gap:10px;align-items:center;margin-bottom:9px;font-size:13px}
+.hb .nm{font-weight:600;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hb .tr{height:14px;background:#EEF3F9;border-radius:4px;overflow:hidden}
+.hb .tr b{display:block;height:100%;border-radius:0 4px 4px 0;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+.hb .v{font-weight:800;text-align:right;font-variant-numeric:tabular-nums}
+
+/* COBRANÇA */
+.cob-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+@media (max-width:400px){.cob-grid{grid-template-columns:1fr}}
+.cob{background:var(--card);border-radius:16px;box-shadow:var(--shadow);padding:16px;border-left:5px solid var(--s-atr);display:flex;flex-direction:column;gap:10px}
+.cob.par{border-left-color:var(--s-par)}
+.cob.sp{border-left-color:var(--s-sp)}
+.cob .top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.cob .tt{font-weight:800;font-size:14px;line-height:1.3}
+.cob .tt small{display:block;font-weight:600;color:var(--muted);font-size:12px;margin-top:2px}
+.late{flex:none;text-align:center;background:#FDECEC;color:#B4232A;border-radius:12px;padding:6px 10px;min-width:66px}
+.late b{display:block;font-size:20px;line-height:1;font-weight:800}
+.late span{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.cob.par .late{background:#F6E6EB;color:var(--s-par)}
+.cob.sp .late{background:#EEF1F5;color:#56627A}
+.cob ul{margin:0;padding-left:18px;color:var(--ink2);font-size:12.5px}
+.cob .who{display:flex;align-items:center;gap:10px;background:var(--soft);border-radius:12px;padding:8px 10px}
+.av{width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--cyan));color:#fff;display:grid;place-items:center;font-weight:800;font-size:12px;flex:none}
+.who .nm{font-weight:700;font-size:12.5px}
+.who .nm small{display:block;color:var(--muted);font-weight:500}
+.cob .ft{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.cob .ft .dts{font-size:12px;color:var(--ink2)}
+.more{display:flex;justify-content:center;margin-top:14px}
+
+/* TABLE */
+.tbl-wrap{overflow-x:auto;border-radius:14px;border:1px solid var(--line)}
+table{border-collapse:separate;border-spacing:0;width:100%;min-width:1080px}
+thead th{position:sticky;top:0;background:#F4F8FC;text-align:left;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:800;padding:11px 12px;border-bottom:1px solid var(--line);cursor:pointer;white-space:nowrap;user-select:none}
+thead th:hover{color:var(--ink)}
+thead th .ar{opacity:.5;margin-left:4px}
+tbody td{padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:middle;font-size:13px}
+tbody tr.ob{cursor:pointer;transition:background .12s}
+tbody tr.ob:hover{background:#F7FAFE}
+tbody tr.ob.is-atr{background:linear-gradient(90deg,#FFF5F5,transparent 40%)}
+tbody tr.ob.is-par{background:linear-gradient(90deg,#FBF0F3,transparent 40%)}
+.oname{font-weight:700;max-width:340px}
+.oname small{display:block;color:var(--muted);font-weight:500;font-size:12px}
+.tag-o{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 7px;border-radius:6px;text-transform:uppercase;letter-spacing:.04em;margin-right:6px;vertical-align:1px}
+.o-cliente{background:#E5EEFF;color:#0B47C9}.o-manutencao{background:#DDF7F1;color:#06705A}.o-planejamento{background:#EDE9FF;color:#4330B8}.o-outros{background:#EEF1F5;color:#56627A}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;padding:4px 10px;border-radius:999px;white-space:nowrap}
+.pill i{font-style:normal;font-size:11px}
+.p-conc{background:#E3F6EE;color:#08714F}.p-dia{background:#E5EEFD;color:#1150B8}.p-aten{background:#FDF3DC;color:#8A5A00}.p-atr{background:#FDE7E8;color:#B4232A}.p-par{background:#F6E3E9;color:#7A1631}.p-sp{background:#EEF1F5;color:#4F5B70}
+.prog{display:flex;align-items:center;gap:8px;min-width:120px}
+.prog .tr{flex:1;height:8px;background:#EBF1F8;border-radius:8px;overflow:hidden}
+.prog .tr b{display:block;height:100%;border-radius:8px;background:linear-gradient(90deg,var(--s-conc),#2CC59A)}
+.prog span{font-weight:800;font-size:12px;width:36px;text-align:right;font-variant-numeric:tabular-nums}
+.dt{white-space:nowrap;font-variant-numeric:tabular-nums}
+.dt small{display:block;color:var(--muted);font-size:11.5px}
+.dt .bad{color:var(--s-atr);font-weight:700}
+.days{font-weight:800;color:var(--s-atr);white-space:nowrap}
+.caret{display:inline-block;transition:transform .15s;color:var(--muted)}
+tr.open .caret{transform:rotate(90deg)}
+tr.det td{background:#FAFCFF;padding:0}
+.det-in{padding:12px 16px 16px 44px}
+.det-in table{min-width:900px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.det-in thead th{cursor:default;font-size:10.5px;padding:8px 10px}
+.det-in td{font-size:12.5px;padding:8px 10px}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+.tbl-tools{display:flex;gap:8px;flex-wrap:wrap}
+
+/* RULES */
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.rule{background:var(--soft);border-radius:14px;padding:12px 14px;font-size:12.5px;color:var(--ink2)}
+.rule .pill{margin-bottom:6px}
+footer{color:var(--muted);font-size:12px;text-align:center;padding:24px 0 40px}
+
+/* TOOLTIP */
+#tip{position:fixed;z-index:100;pointer-events:none;background:var(--navy);color:#fff;font-size:12px;padding:8px 10px;border-radius:10px;box-shadow:0 10px 30px -10px rgba(0,0,0,.5);max-width:280px;opacity:0;transition:opacity .1s;line-height:1.4}
+#tip.on{opacity:1}
+#tip b{font-weight:800}
+
+/* MODAL */
+.modal{position:fixed;inset:0;background:rgba(6,20,45,.55);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:200;padding:16px}
+.modal.on{display:flex}
+.mbox{background:#fff;border-radius:22px;width:min(680px,100%);max-height:calc(100vh - 32px);overflow:auto;box-shadow:0 30px 80px -20px rgba(0,0,0,.5)}
+.mhd{padding:20px 22px;background:linear-gradient(120deg,var(--blue),var(--cyan));color:#fff;display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.mhd h3{margin:0;font-size:18px}
+.mhd p{margin:4px 0 0;opacity:.9;font-size:13px}
+.mhd button{background:rgba(255,255,255,.2);border:0;color:#fff;width:32px;height:32px;border-radius:10px;cursor:pointer;font-size:18px;flex:none}
+.mbd{padding:20px 22px;display:flex;flex-direction:column;gap:16px}
+.drop{border:2px dashed #B8CBE3;border-radius:16px;padding:26px;text-align:center;cursor:pointer;background:var(--soft);transition:all .15s}
+.drop:hover,.drop.over{border-color:var(--blue);background:#EEF4FF}
+.drop b{display:block;font-size:15px;margin-bottom:4px}
+.drop span{color:var(--muted);font-size:12.5px}
+.msg{border-radius:12px;padding:10px 12px;font-size:13px;display:none}
+.msg.on{display:block}
+.msg.ok{background:#E3F6EE;color:#08714F}.msg.err{background:#FDE7E8;color:#B4232A}.msg.info{background:#E5EEFD;color:#1150B8}
+.prev{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.prev div{background:var(--soft);border-radius:12px;padding:10px;text-align:center}
+.prev b{display:block;font-size:20px}
+.prev span{font-size:11.5px;color:var(--muted)}
+details.gh{border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+details.gh summary{cursor:pointer;font-weight:700}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.form label{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:700;color:var(--ink2)}
+.form label.full{grid-column:1/-1}
+.form input{border:1px solid var(--line);background:var(--soft);border-radius:10px;padding:9px 10px;outline:0;font-weight:500}
+.form input:focus{border-color:var(--blue);background:#fff}
+.form .chk{flex-direction:row;align-items:center;gap:8px;font-weight:600}
+.hint{font-size:12px;color:var(--muted);margin:6px 0 0}
+.mft{display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap;padding:0 22px 22px}
+@media (max-width:640px){.form{grid-template-columns:1fr}.prev{grid-template-columns:repeat(2,1fr)}}
+
+/* NOVOS ELEMENTOS (aba PLANO) */
+.alert.warn{border-color:#F1D9A6;border-left-color:var(--s-aten);background:linear-gradient(100deg,#fff,#FFF8EA)}
+.alert.warn .ic{background:var(--s-aten);animation:none}
+.kpi.warn{border-top:4px solid var(--s-aten)}
+.stackcol{display:flex;flex-direction:column-reverse;gap:2px;width:60%;max-width:46px;min-height:2px}
+.stackcol span{display:block;min-height:3px}
+.stackcol span:last-child{border-radius:5px 5px 0 0}
+.xlab span{line-height:1.2}
+.xlab small{font-size:10px;font-weight:500;opacity:.8}
+.hb.tall{grid-template-columns:150px 1fr 40px;margin-bottom:14px}
+.hb.tall .tr{height:18px}
+.resp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px 28px}
+.rp{display:flex;align-items:center;gap:12px;padding:8px 0}
+.rp-b{flex:1;min-width:0}
+.rp-h{display:flex;justify-content:space-between;gap:8px;margin-bottom:6px;flex-wrap:wrap}
+.rp-h b{font-size:13.5px}
+.rp-h span{font-size:12px;color:var(--muted)}
+.cob.aten{border-left-color:var(--s-aten)}
+.cob.aten .late{background:#FDF3DC;color:#8A5A00}
+.cob .cnt{display:flex;flex-wrap:wrap;gap:6px}
+.cob ul.acts{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+.acts li{display:flex;gap:10px;align-items:flex-start;background:var(--soft);border-radius:10px;padding:8px 10px}
+.acts li b{display:block;font-size:12.5px;color:var(--ink)}
+.acts li small{display:block;font-size:11.5px;color:var(--muted)}
+.acts li small.bad{color:var(--s-atr);font-weight:700}
+.acts .dotst{width:9px;height:9px;border-radius:50%;flex:none;margin-top:5px}
+.acts .more-li{background:none;padding:0 4px;font-size:12px;color:var(--ink2);font-weight:600}
+/* ================= CELULAR / TELAS PEQUENAS ================= */
+.wrap{padding-left:max(24px,env(safe-area-inset-left));padding-right:max(24px,env(safe-area-inset-right))}
+@media (max-width:960px){
+  .wrap{padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+  .grid{gap:14px;margin-bottom:14px}
+  .kpis{gap:10px}
+  .card{padding:16px}
+  .kpi{padding:14px}
+  .kpi .val{font-size:28px}
+  table{min-width:820px}
+  tbody td{padding:9px 10px;font-size:12.5px}
+  thead th{padding:9px 10px}
+  .oname{max-width:260px}
+  .det-in{padding:10px 10px 12px 12px}
+  .det-in table{min-width:720px}
+  .cob-grid{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+  .resp-grid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px 20px}
+  .cols{height:190px;gap:6px}
+  .col{flex-basis:36px}
+  .xlab{gap:6px}.xlab span{flex-basis:36px}
+  .hb.tall{grid-template-columns:130px 1fr 34px}
+}
+/* Celular na horizontal: pouca altura -> cabeçalho compacto e filtros sem fixar */
+@media (orientation:landscape) and (max-height:540px){
+  .hero .wrap{padding-top:16px;padding-bottom:58px;min-height:0}
+  .hero h1{font-size:28px;margin:8px 0 6px;max-width:520px}
+  .hero p.lead{display:none}
+  .hero-meta{margin-top:8px;gap:6px}
+  .chip-glass{padding:5px 10px;font-size:11.5px}
+  .hero-actions{margin-top:12px;gap:8px}
+  .btn{padding:8px 12px;font-size:12.5px}
+  main{margin-top:-44px}
+  .alert{padding:10px 14px;gap:12px;margin-bottom:12px}
+  .alert .ic{width:36px;height:36px}
+  .alert .tx b{font-size:14px}
+  .filters{position:static;padding:10px;gap:8px;margin-bottom:12px}
+  .filters select,.search input{padding-top:8px;padding-bottom:8px}
+  .kpis{grid-template-columns:repeat(6,1fr);gap:8px;margin-bottom:12px}
+  .kpi{padding:10px 12px;border-radius:14px}
+  .kpi .lbl{font-size:10px;letter-spacing:.03em}
+  .kpi .val{font-size:22px;margin:4px 0 0}
+  .kpi .val small{font-size:12px}
+  .kpi .sub{font-size:10.5px;line-height:1.3}
+  .kpi .bar{margin-top:6px}
+  .kpi .go{display:none}
+  .grid .c5,.grid .c7{grid-column:span 6}
+  .donut-wrap{gap:14px}
+  .legend{min-width:150px}
+  .lg{padding:4px 6px}
+  .stk-row{grid-template-columns:92px 1fr 40px;gap:8px}
+  .donut{width:150px;height:150px}
+  .donut .ctr b{font-size:28px}
+  .sec-title{margin:20px 0 10px}
+  .sec-title h2{font-size:17px}
+  .tbl-wrap{max-height:80vh;overflow:auto}
+  .mbox{max-height:calc(100vh - 16px)}
+  .mhd{padding:14px 18px}.mbd{padding:14px 18px;gap:12px}.drop{padding:16px}
+  .modal{padding:8px}
+}
+@media (orientation:landscape) and (max-height:540px) and (max-width:720px){
+  .kpis{grid-template-columns:repeat(3,1fr)}
+}
+@media (hover:none){ .kpi .go{opacity:1;transform:none} }
+
+@media print{.filters,.hero-actions,.btn,.modal{display:none!important}main{margin-top:0}.card,.kpi,.cob{box-shadow:none;border:1px solid #ddd}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <button class="upd-btn" id="btnUpd" type="button" title="Atualizar planilha base" aria-label="Atualizar planilha">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M6 10l6-6 6 6"/><path d="M4 20h16"/></svg>
+      <span>Atualizar planilha</span>
+    </button>
+    <div class="eyebrow"><span class="dot"></span>Grupo Equatorial Energia · Piauí</div>
+    <h1>Plano de <span>Encerramento de Obras</span></h1>
+    <p class="lead">Obras, ações e responsáveis em um só lugar, com alertas automáticos do que está atrasado e precisa ser cobrado.</p>
+    <div class="hero-meta">
+      <span class="chip-glass" id="mRef">📅 Referência: —</span>
+      <span class="chip-glass" id="mSrc">🕒 Atualizado em —</span>
+    </div>
+    <div class="hero-actions">
+      <a class="btn btn-ghost" href="#cobranca">⚠ Central de cobrança</a>
+      <a class="btn btn-ghost" href="#obras">Ver obras</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="alert"></div>
+
+  <div class="filters" role="search">
+    <label class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7D8FA8" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="fQ" type="search" placeholder="Buscar obra, ação, PEP ou responsável…" autocomplete="off">
+    </label>
+    <select id="fObra" aria-label="Obra" class="sel-obra"><option value="">Todas as obras</option></select>
+    <select id="fResp" aria-label="Responsável"><option value="">Todos os responsáveis</option></select>
+    <select id="fTipo" aria-label="Tipo de ação"><option value="">Todos os tipos de ação</option></select>
+    <div class="chips" id="fSt"></div>
+    <button class="clear" id="fClr" type="button">Limpar filtros</button>
+  </div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="grid">
+    <div class="card c5">
+      <div class="hd"><div><h2>Situação das ações</h2><p>Clique numa situação para filtrar o painel</p></div></div>
+      <div class="donut-wrap" id="donut"></div>
+    </div>
+    <div class="card c7">
+      <div class="hd"><div><h2>Situação por projeto</h2><p>Distribuição das ações de cada carteira · % entregue à direita</p></div></div>
+      <div id="stk"></div>
+      <div class="mini-legend" id="stkLg"></div>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card c8">
+      <div class="hd">
+        <div><h2>Prazos das ações por data de término</h2><p>Quantas ações vencem em cada data e em que situação estão</p></div>
+        <div class="mini-legend" id="colsLg"></div>
+      </div>
+      <div class="cols" id="cols"></div>
+      <div class="xlab" id="xlab"></div>
+    </div>
+    <div class="card c4">
+      <div class="hd"><div><h2>Tipo de ação</h2><p>Total de ações · parte concluída em verde</p></div></div>
+      <div id="hbTipo"></div>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card c12">
+      <div class="hd"><div><h2>Ações por responsável</h2><p>Carga de cada pessoa e situação das suas ações</p></div><div class="mini-legend" id="respLg"></div></div>
+      <div id="hbResp" class="resp-grid"></div>
+    </div>
+  </section>
+
+  <div class="sec-title" id="cobranca"><h2>⚠ Central de cobrança</h2><span class="badge" id="cobCt">0</span><span class="ln"></span></div>
+  <p style="margin:-4px 0 14px;color:var(--ink2)">Responsáveis com ações atrasadas ou em atenção (não iniciadas no prazo ou vencendo em até 2 dias), da maior para a menor pendência. Use <b>Copiar cobrança</b> para enviar a mensagem pronta.</p>
+  <div class="cob-grid" id="cob"></div>
+
+  <div class="sec-title" id="obras"><h2>Obras e ações</h2><span class="badge" id="obCt">0</span><span class="ln"></span></div>
+  <div class="card c12" style="padding:16px">
+    <div class="hd" style="margin-bottom:12px">
+      <div><h2>Acompanhamento por obra</h2><p>Clique numa obra para ver cada ação, o responsável, o início, o término e o status</p></div>
+      <div class="tbl-tools">
+        <button class="btn btn-light" id="btnExp" type="button">⬇ Exportar CSV</button>
+        <button class="btn btn-light" id="btnAll" type="button">Expandir tudo</button>
+      </div>
+    </div>
+    <div class="tbl-wrap"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+  </div>
+
+  <div class="sec-title"><h2>Como a situação é calculada</h2><span class="ln"></span></div>
+  <div class="rules" id="rules"></div>
+</main>
+
+<footer>Plano de Encerramento de Obras · Equatorial Piauí · <span id="fSrc"></span></footer>
+
+<div id="tip" role="tooltip"></div>
+
+<!-- MODAL ATUALIZAÇÃO -->
+<div class="modal" id="modal" aria-modal="true" role="dialog">
+  <div class="mbox">
+    <div class="mhd">
+      <div><h3>Atualizar planilha base</h3><p>Anexe a nova revisão do “Plano Ação ENTE PI” (.xlsx). Só a aba visível é lida; abas ocultas são ignoradas.</p></div>
+      <button type="button" id="mClose" aria-label="Fechar">×</button>
+    </div>
+    <div class="mbd">
+      <label class="drop" id="drop">
+        <input type="file" id="file" accept=".xlsx,.xlsm,.xls" hidden>
+        <b>📎 Clique ou arraste a planilha aqui</b>
+        <span id="fileName">Formato .xlsx · colunas PEP, OBRA, AÇÃO, RESPONSÁVEL, INÍCIO, TÉRMINO, STATUS</span>
+      </label>
+      <div class="msg" id="pMsg"></div>
+      <div class="prev" id="prev" hidden></div>
+
+      <details class="gh" id="ghBox">
+        <summary>⚙ Publicação no GitHub</summary>
+        <div class="form">
+          <label>Usuário / organização<input id="gOwner" placeholder="ex.: minha-org"></label>
+          <label>Repositório<input id="gRepo" placeholder="ex.: painel-ente-pi"></label>
+          <label>Branch<input id="gBranch" placeholder="main"></label>
+          <label>Arquivo de dados<input id="gPath" placeholder="dados.json"></label>
+          <label class="full">Token do GitHub (fine-grained, só “Contents: Read and write” neste repositório)
+            <input id="gToken" type="password" autocomplete="off" placeholder="github_pat_…">
+          </label>
+          <label class="chk full"><input type="checkbox" id="gRemember"> Lembrar o token neste computador</label>
+        </div>
+        <p class="hint">O token fica só neste navegador e é enviado apenas para api.github.com. Nunca coloque o token dentro do código do repositório.</p>
+      </details>
+    </div>
+    <div class="mft">
+      <button class="btn btn-light" type="button" id="bLocal" disabled>Visualizar só neste navegador</button>
+      <button class="btn btn-primary" type="button" id="bPub" disabled>⬆ Subir e publicar no GitHub</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* Dados de reserva, usados só quando o painel é aberto direto do disco (file://) e não consegue ler dados.json */
+window.SEED = {
+ "fonte": "Plano Ação ENTE PI Rev.0.xlsx",
+ "aba": "PLANO",
+ "atualizadoEm": "2026-11-17T10:41:58",
+ "registros": [
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0002.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0002.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.0002.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.1001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530108BCA0.A.1001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE SUBESTAÇÃO - SE SÃO RAIMUNDO NONATO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.D.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-20",
+   "status": "CONCLUÍDO"
+  },
+  {
+   "pep": "PI-2530808CAT0.D.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-20",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.D.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-27",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.D.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-20",
+   "status": "CONCLUÍDO"
+  },
+  {
+   "pep": "PI-2530808CAT0.D.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-27",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-13",
+   "fim": "2026-11-20",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0002.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-13",
+   "fim": "2026-11-20",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0001.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.H.0002.I",
+   "obra": "CLIENTE - BANCO DE CAPACITORES - SE NAZÁRIA - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2532008CAP0.A.0001.I",
+   "obra": "CUSTOS DE APOIO EM PROJETOS - 2025",
+   "acao": "Realizar rateio nos PEPs.",
+   "resp": "Mateus Carlos",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2532008CAP0.B.0001.I",
+   "obra": "CUSTOS DE APOIO EM PROJETOS - 2025",
+   "acao": "Realizar rateio nos PEPs.",
+   "resp": "Mateus Carlos",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-27",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0002.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-27",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-17",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-17",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-17",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-17",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0001.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-30",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.J.0002.I",
+   "obra": "CLIENTE - REATOR - SE SANTA FILOMENA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-30",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0002.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0002.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0001.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.G.0002.I",
+   "obra": "MANUTENÇÃO - AMPLIAÇÃO DE SUBESTAÇÃO - SE PÓLO INDUSTRIAL - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.F.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.E.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.B.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE ELESBÃO VELOSO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE OEIRAS (PI) - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.A.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE OEIRAS (PI) - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE OEIRAS (PI) - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE OEIRAS (PI) - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.A.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE OEIRAS (PI) - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2631308MOP0.A.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PAULISTANA - 2028",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.C.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE PIRACURUCA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.A.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CAMURUPIM - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.C.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE JOCKEY - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.F.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE MANDACARU - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.D.0001.I",
+   "obra": "PLANEJAMENTO - ENTRADA DE LINHA - SE BURITI GRANDE - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.D.0002.I",
+   "obra": "PLANEJAMENTO - ENTRADA DE LINHA - SE BURITI GRANDE - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.D.0001.I",
+   "obra": "PLANEJAMENTO - ENTRADA DE LINHA - SE BURITI GRANDE - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.D.0001.I",
+   "obra": "PLANEJAMENTO - ENTRADA DE LINHA - SE BURITI GRANDE - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.D.0002.I",
+   "obra": "PLANEJAMENTO - ENTRADA DE LINHA - SE BURITI GRANDE - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0003.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Realizar pagamento final - FUNDIÁRIO",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Realizar conciliação física-contábil - LD",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-24",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Realizar pagamento final - COMS. LD",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562508JUN0.B.0003.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD PICOS (RB) - JUNCO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.1001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - LD.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.1001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar conciliação física-contábil - LD.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.1001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.0002.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531308MOP0.G.1001.I",
+   "obra": "MANUTENÇÃO - MELHORIA SE - SE PICOS - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-19",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-19",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.H.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE BAIXA GRANDE DO RIBEIRO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.Y.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE POTÊNCIA - SE PALMEIRAIS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.1001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT0.2.1001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE CAMPO MAIOR - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.G.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PICOS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.F.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PORTO ALEGRE DO PIAUÍ - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-17",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.F.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PORTO ALEGRE DO PIAUÍ - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.F.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE PORTO ALEGRE DO PIAUÍ - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0001.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530808CAT0.C.0002.I",
+   "obra": "CLIENTE - AMPLIAÇÃO DE SUBESTAÇÃO - SE SIMPLÍCIO MENDES - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.R.0001.I",
+   "obra": "CLIENTE - ENTRADA DE LINHA - SE MIGUEL ALVES - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.R.0002.I",
+   "obra": "CLIENTE - ENTRADA DE LINHA - SE MIGUEL ALVES - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2430808CAT1.R.0001.I",
+   "obra": "CLIENTE - ENTRADA DE LINHA - SE MIGUEL ALVES - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2330608OEI0.A.0001.I",
+   "obra": "MANUTENÇÃO - ADEQUAÇÃO LD - LD FLORIANO - OEIRAS - 2024",
+   "acao": "Verificar status DFEC",
+   "resp": "Rodrigo Siqueira",
+   "ini": "2026-11-17",
+   "fim": "2026-11-17",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-04",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.I.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE CURIMATÁ - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-04",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.L.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE SÃO JOÃO DO PIAUÍ - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.L.0002.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE SÃO JOÃO DO PIAUÍ - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.L.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE SÃO JOÃO DO PIAUÍ - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2531408RNV0.K.0001.I",
+   "obra": "MANUTENÇÃO - RENOVAÇÃO SE - SE URUÇUÍ II - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630208AMP0.A.1001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE POTÊNCIA - SE VALENÇA - 2027",
+   "acao": "Cria novo PEP e transferir todos os custos PI-2630208AMP0.A.0001.I",
+   "resp": "Mateus",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630208AMP0.A.1001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE POTÊNCIA - SE VALENÇA - 2027",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-24",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630208AMP0.A.0002.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE POTÊNCIA - SE VALENÇA - 2027",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-24",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630208AMP0.A.1001.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE POTÊNCIA - SE VALENÇA - 2027",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-04",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630208AMP0.A.0002.I",
+   "obra": "PLANEJAMENTO - AMPLIAÇÃO DE POTÊNCIA - SE VALENÇA - 2027",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-04",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Luiz Lima",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2530008BAY0.A.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE BOM JESUS - 2025",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Luiz Lima",
+   "ini": "2026-12-01",
+   "fim": "2026-12-01",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.E.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE LUZILÂNDIA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar pagamento final - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar conciliação física-contábil - ELM.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar conciliação física-contábil - CIV.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar pagamento final - COMS. ELM.",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar pagamento final - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar conciliação física-contábil - AUT.",
+   "resp": "Rafael Barbosa",
+   "ini": "2026-11-25",
+   "fim": "2026-12-04",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Realizar pagamento final - COMS. AUT.",
+   "resp": "Mateus Oereinse",
+   "ini": "2026-11-23",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0001.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2630008BAY0.K.0002.I",
+   "obra": "PLANEJAMENTO - BAY - SE UNIÃO - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Thiago Rezende",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Realizar pagamento final - ELM.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0003.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Realizar pagamento final - FUNDIÁRIO",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Realizar conciliação física-contábil - LD",
+   "resp": "Hugo Sabino",
+   "ini": "2026-11-24",
+   "fim": "2026-11-30",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Realizar pagamento final - COMS. LD",
+   "resp": "Nathalia Omena",
+   "ini": "2026-11-16",
+   "fim": "2026-11-24",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0001.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  },
+  {
+   "pep": "PI-2562408STA0.B.0003.I",
+   "obra": "PLANEJAMENTO - NOVA LD - LD SECC POTY / CROWN - SANTA MARIA - 2026",
+   "acao": "Colocar a obra no status CONC.",
+   "resp": "Hugo Sabino",
+   "ini": "2026-12-05",
+   "fim": "2026-12-05",
+   "status": "NÃO INICIADO"
+  }
+ ]
+};
+</script>
+<script>
+(() => {
+'use strict';
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm = s => String(s ?? '').normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/\s+/g,' ').trim().toUpperCase();
+const DAY = 86400000;
+const WD = ['dom','seg','ter','qua','qui','sex','sáb'];
+
+/* ---------- SITUAÇÕES ---------- */
+const ST = {
+  par: {label:'Paralisada', color:'var(--s-par)', hex:'#8E1B3A', icon:'■', sev:5},
+  atr: {label:'Atrasada',   color:'var(--s-atr)', hex:'#E5484D', icon:'⚠', sev:4},
+  sp:  {label:'Sem prazo',  color:'var(--s-sp)',  hex:'#8A94A6', icon:'?', sev:3},
+  aten:{label:'Atenção',    color:'var(--s-aten)',hex:'#C98408', icon:'!', sev:2},
+  dia: {label:'Em dia',     color:'var(--s-dia)', hex:'#1668E3', icon:'●', sev:1},
+  conc:{label:'Concluída',  color:'var(--s-conc)',hex:'#0E9F6E', icon:'✓', sev:0},
+};
+const ST_ORDER = ['conc','dia','aten','atr','par','sp'];
+const pill = k => `<span class="pill p-${k}"><i>${ST[k].icon}</i>${ST[k].label}</span>`;
+
+/* ---------- DATAS / NÚMEROS ---------- */
+const pd = s => { if(!s) return null; const [y,m,d] = s.split('-').map(Number); return new Date(y, m-1, d); };
+const today = (() => { const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); })();
+const diff = (a,b) => Math.round((a-b)/DAY);
+const fDt = s => { const d = pd(s); return d ? d.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'}) : '—'; };
+const fDtY = s => { const d = pd(s); return d ? d.toLocaleDateString('pt-BR') : '—'; };
+const fDtLong = d => d.toLocaleDateString('pt-BR',{day:'2-digit',month:'long',year:'numeric'});
+const pct = (a,b) => b ? Math.round(a/b*100) : 0;
+const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+
+/* ---------- TEXTO ---------- */
+const KEEP = new Set(['SE','LD','II','III','IV','PI','RB','AT','PEP','ENTE','EQTL','SECC']);
+const LOW = new Set(['DE','DO','DA','DOS','DAS','E','EM']);
+function tc(s){
+  if(!s) return '';
+  return String(s).split(/(\s+|\(|\)|\/|-)/).map((w,i) => {
+    const u = w.toUpperCase();
+    if(!w.trim() || /^[\s()\/-]+$/.test(w)) return w;
+    if(KEEP.has(u) || /\d/.test(w)) return u;
+    if(LOW.has(u) && i>0) return w.toLowerCase();
+    return w.charAt(0).toUpperCase()+w.slice(1).toLowerCase();
+  }).join('');
+}
+function splitObra(desc){
+  const p = String(desc||'').split(' - ').map(s=>s.trim());
+  const ano = /^\d{4}$/.test(p[p.length-1]) ? p.pop() : '';
+  let origem, nome;
+  if(p.length >= 2){ origem = p.shift(); nome = p.join(' - '); } else { origem = p[0]||'OUTROS'; nome = p[0]||''; }
+  const on = norm(origem);
+  const oKey = on.startsWith('CLIENTE') ? 'cliente' : on.startsWith('MANUTEN') ? 'manutencao' : on.startsWith('PLANEJ') ? 'planejamento' : 'outros';
+  const oLabel = {cliente:'Cliente',manutencao:'Manutenção',planejamento:'Planejamento',outros:'Custos de apoio'}[oKey];
+  return {oKey, oLabel, nome: tc(nome), ano};
+}
+function tipoAcao(a){
+  const n = norm(a);
+  if(n.startsWith('REALIZAR PAGAMENTO FINAL')) return 'Pagamento final';
+  if(n.startsWith('REALIZAR CONCILIACAO')) return 'Conciliação físico-contábil';
+  if(n.includes('STATUS CONC')) return 'Colocar obra em CONC';
+  if(n.includes('RATEIO')) return 'Rateio nos PEPs';
+  return 'Outras ações';
+}
+const initials = n => String(n||'?').trim().split(/\s+/).slice(0,2).map(w=>w[0]).join('').toUpperCase() || '?';
+const fixName = n => String(n||'').replace(/\s+/g,' ').trim() || 'Não atribuído';
+
+/* ---------- CLASSIFICAÇÃO ---------- */
+function classify(r){
+  const s = norm(r.status);
+  const o = {k:'dia', dias:0, motivos:[]};
+  if(s.includes('CONCLU')){ o.k='conc'; return o; }
+  if(s.includes('PARALIS')){ o.k='par'; o.motivos.push('Ação paralisada'); }
+  if(!r.fim){ if(o.k!=='par'){ o.k='sp'; o.motivos.push('Sem data de término'); } return o; }
+  const fim = pd(r.fim), ini = pd(r.ini);
+  if(today > fim){
+    const d = diff(today, fim); o.dias = d;
+    o.motivos.push(`Término em ${fDt(r.fim)} vencido há ${d} dia${d>1?'s':''}`);
+    if(o.k!=='par') o.k='atr';
+    return o;
+  }
+  if(o.k==='par') return o;
+  const naoIniciada = !s || s.includes('NAO INICIAD');
+  if(naoIniciada && ini && today > ini){ o.k='aten'; o.motivos.push(`Deveria ter iniciado em ${fDt(r.ini)}`); }
+  const falta = diff(fim, today);
+  if(falta <= 2){ o.k='aten'; o.motivos.push(falta===0 ? 'Vence hoje' : `Vence em ${falta} dia${falta>1?'s':''}`); }
+  return o;
+}
+
+/* ---------- ESTADO ---------- */
+let DATA = null, ITEMS = [], OBRAS = [];
+const F = {q:'', obra:'', resp:'', tipo:'', st:new Set(), prox:false};
+const LIM7 = () => new Date(today.getTime()+7*DAY);
+const sortState = {key:'sev', dir:-1};
+const openSet = new Set();
+
+function prepare(data){
+  DATA = data;
+  ITEMS = (data.registros||[]).map((r,i) => {
+    const c = classify(r); const ob = splitObra(r.obra); const resp = fixName(r.resp);
+    return {...r, resp, _i:i, st:c.k, dias:c.dias, motivos:c.motivos, tipo:tipoAcao(r.acao), ...ob,
+      _q: norm([r.obra,r.pep,resp,r.acao,r.status].join(' '))};
+  });
+  const opt = (sel, first, vals, lab=v=>v) => { const cur = F[sel]; $( '#f'+sel[0].toUpperCase()+sel.slice(1) ).innerHTML = `<option value="">${first}</option>` + vals.map(v=>`<option value="${esc(v)}">${esc(lab(v))}</option>`).join(''); if(!vals.includes(cur)) F[sel]=''; $('#f'+sel[0].toUpperCase()+sel.slice(1)).value = F[sel]; };
+  opt('obra', `Todas as obras (${new Set(ITEMS.map(i=>i.obra)).size})`, [...new Set(ITEMS.map(i=>i.obra))].sort((a,b)=>a.localeCompare(b,'pt-BR')));
+  opt('resp', 'Todos os responsáveis', [...new Set(ITEMS.map(i=>i.resp))].sort((a,b)=>a.localeCompare(b,'pt-BR')));
+  opt('tipo', 'Todos os tipos de ação', [...new Set(ITEMS.map(i=>i.tipo))].sort());
+  const up = data.atualizadoEm ? new Date(data.atualizadoEm) : null;
+  $('#mRef').textContent = `📅 Referência: ${fDtLong(today)}`;
+  $('#mSrc').textContent = up && !isNaN(up) ? `🕒 Atualizado em ${up.toLocaleDateString('pt-BR')} às ${up.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}` : '🕒 Atualizado em —';
+  $('#fSrc').textContent = `Fonte: ${data.fonte||'—'}${data.aba?' (aba '+data.aba+')':''} · ${ITEMS.length} ações`;
+  render();
+}
+
+function filtered(){
+  const q = norm(F.q);
+  return ITEMS.filter(i =>
+    (!q || i._q.includes(q)) && (!F.obra || i.obra===F.obra) && (!F.resp || i.resp===F.resp) &&
+    (!F.tipo || i.tipo===F.tipo) && (!F.st.size || F.st.has(i.st)) &&
+    (!F.prox || (i.st!=='conc' && i.fim && pd(i.fim)>=today && pd(i.fim)<=LIM7())));
+}
+function groupObras(items){
+  const m = new Map();
+  for(const it of items){
+    if(!m.has(it.obra)) m.set(it.obra, {obra:it.obra, nome:it.nome, oKey:it.oKey, oLabel:it.oLabel, ano:it.ano, itens:[]});
+    m.get(it.obra).itens.push(it);
+  }
+  return [...m.values()].map(o => {
+    const its = o.itens.sort((a,b)=> (a.fim||'').localeCompare(b.fim||'') || ST[b.st].sev-ST[a.st].sev);
+    const allConc = its.every(i=>i.st==='conc');
+    const worst = allConc ? 'conc' : its.filter(i=>i.st!=='conc').reduce((a,b)=> ST[b.st].sev > ST[a.st].sev ? b : a).st;
+    const nConc = its.filter(i=>i.st==='conc').length;
+    const dates = (f) => its.map(f).filter(Boolean).sort();
+    return {...o, st:worst, sev:ST[worst].sev, n:its.length, nConc, prog:pct(nConc,its.length),
+      dias: Math.max(0,...its.map(i=>i.dias)),
+      ini: dates(i=>i.ini)[0]||null, fim: dates(i=>i.fim).pop()||null,
+      peps: new Set(its.map(i=>i.pep)).size,
+      resps: [...new Set(its.map(i=>i.resp))],
+      nAtr: its.filter(i=>i.st==='atr'||i.st==='par').length, nAten: its.filter(i=>i.st==='aten').length};
+  });
+}
+
+/* ---------- RENDER ---------- */
+function render(){
+  const items = filtered();
+  OBRAS = groupObras(items);
+  renderChips(); renderAlert(items); renderKpis(items); renderDonut(items); renderStack(items);
+  renderCols(items); renderTipo(items); renderResp(items); renderCob(items); renderTable(); renderRules();
+}
+
+function renderChips(){
+  $('#fSt').innerHTML = ST_ORDER.map(k => `<button type="button" class="chip ${F.st.has(k)?'on':''}" data-st="${k}"><i style="background:${ST[k].color}"></i>${ST[k].label}</button>`).join('') +
+    (F.prox ? `<button type="button" class="chip on" data-prox="1">📆 Vencem em 7 dias ✕</button>` : '');
+}
+
+function renderAlert(items){
+  const atr = items.filter(i=>i.st==='atr'||i.st==='par'), aten = items.filter(i=>i.st==='aten');
+  const el = $('#alert');
+  const ico = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>`;
+  if(atr.length){
+    const ob = new Set(atr.map(i=>i.obra)).size, ps = new Set(atr.map(i=>i.resp)).size, maxD = Math.max(...atr.map(i=>i.dias));
+    el.innerHTML = `<div class="alert"><div class="ic">${ico}</div><div class="tx"><b>${atr.length} ${atr.length>1?'ações atrasadas':'ação atrasada'} em ${ob} obra${ob>1?'s':''}: cobrança necessária</b>
+      <span>${ps} responsáve${ps>1?'is':'l'} com pendência vencida · maior atraso: <b style="display:inline;font-size:inherit">${maxD} dia${maxD>1?'s':''}</b>${aten.length?` · mais ${aten.length} em atenção`:''}.</span></div>
+      <a class="btn btn-primary" href="#cobranca" style="background:var(--s-atr)">Ir para a cobrança →</a></div>`;
+  } else if(aten.length){
+    const ps = new Set(aten.map(i=>i.resp)).size;
+    el.innerHTML = `<div class="alert warn"><div class="ic">${ico}</div><div class="tx"><b>Nenhuma ação atrasada, mas ${aten.length} ${aten.length>1?'ações pedem':'ação pede'} atenção</b>
+      <span>Ações que já deveriam ter iniciado ou que vencem em até 2 dias, com ${ps} responsáve${ps>1?'is':'l'}. Cobre antes que virem atraso.</span></div>
+      <a class="btn btn-primary" href="#cobranca" style="background:var(--s-aten)">Ver quem cobrar →</a></div>`;
+  } else {
+    el.innerHTML = `<div class="alert ok"><div class="ic">✓</div><div class="tx"><b>Nenhuma ação atrasada no recorte atual</b><span>Cronograma sob controle.</span></div></div>`;
+  }
+}
+
+function renderKpis(items){
+  const n = items.length, c = k => items.filter(i=>i.st===k).length;
+  const conc=c('conc'), dia=c('dia'), aten=c('aten'), atr=c('atr')+c('par');
+  const obras = OBRAS.length, obConc = OBRAS.filter(o=>o.st==='conc').length;
+  const peps = new Set(items.map(i=>i.pep)).size;
+  const lim = LIM7();
+  const on = k => (k==='prox' ? F.prox : (!F.prox && F.st.size && (k==='atr' ? F.st.has('atr') : F.st.size===1 && F.st.has(k)))) ? ' active' : '';
+  const go = '<span class="go">Ver detalhes →</span>';
+  const semana = items.filter(i=>i.st!=='conc' && i.fim && pd(i.fim)>=today && pd(i.fim)<=lim).length;
+  $('#kpis').innerHTML = `
+    <div class="kpi accent click" data-kpi="obras" title="Ver todas as obras"><div class="lbl">Obras</div><div class="val">${obras}</div><div class="sub">${peps} PEPs · ${n} ações</div><div class="bar"><b style="width:${pct(obConc,obras)}%;background:#fff"></b></div><div class="sub" style="margin-top:6px">${obConc} obra${obConc!==1?'s':''} 100% concluída${obConc!==1?'s':''}</div>${go}</div>
+    <div class="kpi click${on('conc')}" data-kpi="conc" title="Ver ações concluídas"><div class="lbl">✓ Entregue</div><div class="val">${pct(conc,n)}<small>%</small></div><div class="sub">${conc} de ${n} ações concluídas</div><div class="bar"><b style="width:${pct(conc,n)}%;background:var(--s-conc)"></b></div>${go}</div>
+    <div class="kpi click${on('dia')}" data-kpi="dia" title="Ver ações em dia"><div class="lbl">● Em dia</div><div class="val">${pct(dia,n)}<small>%</small></div><div class="sub">${dia} ações dentro do prazo</div><div class="bar"><b style="width:${pct(dia,n)}%;background:var(--s-dia)"></b></div>${go}</div>
+    <div class="kpi warn click${on('aten')}" data-kpi="aten" title="Ver ações em atenção"><div class="lbl" style="color:var(--s-aten)">! Atenção</div><div class="val" style="color:var(--s-aten)">${pct(aten,n)}<small>%</small></div><div class="sub">${aten} não iniciadas no prazo ou vencendo</div><div class="bar"><b style="width:${pct(aten,n)}%;background:var(--s-aten)"></b></div>${go}</div>
+    <div class="kpi danger click${on('atr')}" data-kpi="atr" title="Ver ações atrasadas"><div class="lbl" style="color:var(--s-atr)">⚠ Atrasado</div><div class="val" style="color:var(--s-atr)">${pct(atr,n)}<small>%</small></div><div class="sub">${atr} ações com prazo vencido</div><div class="bar"><b style="width:${pct(atr,n)}%;background:var(--s-atr)"></b></div>${go}</div>
+    <div class="kpi click${on('prox')}" data-kpi="prox" title="Ver ações que vencem nos próximos 7 dias"><div class="lbl">📆 Próximos 7 dias</div><div class="val">${semana}</div><div class="sub">ações vencem até ${lim.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})}</div><div class="bar"><b style="width:${pct(semana,n)}%;background:linear-gradient(90deg,var(--blue),var(--cyan))"></b></div>${go}</div>`;
+}
+
+function renderDonut(items){
+  const n = items.length || 1, R = 80, C = 2*Math.PI*R;
+  const counts = ST_ORDER.map(k => ({k, v: items.filter(i=>i.st===k).length}));
+  const nz = counts.filter(x=>x.v).length;
+  let off = 0, arcs = '';
+  for(const {k,v} of counts){
+    if(!v) continue;
+    const len = v/n*C, gap = nz>1 ? 2 : 0;
+    arcs += `<circle cx="100" cy="100" r="${R}" fill="none" stroke="${ST[k].hex}" stroke-width="26" stroke-dasharray="${Math.max(0.5,len-gap)} ${C}" stroke-dashoffset="${-off}" data-tip="<b>${ST[k].label}</b><br>${v} ações · ${pct(v,n)}%" style="cursor:pointer" data-st="${k}"/>`;
+    off += len;
+  }
+  const conc = counts.find(c=>c.k==='conc').v;
+  $('#donut').innerHTML = `<div class="donut"><svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="${R}" fill="none" stroke="#EEF3F9" stroke-width="26"/>${arcs}</svg>
+    <div class="ctr"><div><b>${pct(conc,items.length)}%</b><span>entregue<br>${items.length} ações</span></div></div></div>
+    <div class="legend">${counts.filter(c=>c.v || ['conc','dia','aten','atr'].includes(c.k)).map(({k,v})=>`<div class="lg" data-st="${k}"><span class="sw" style="background:${ST[k].color}"></span><span class="nm">${ST[k].icon} ${ST[k].label}</span><span class="ct">${v}</span><span class="pc">${pct(v,items.length)}%</span></div>`).join('')}</div>`;
+}
+
+function renderStack(items){
+  const groups = [...new Map(items.map(i=>[i.oKey,i.oLabel])).entries()];
+  const used = new Set();
+  $('#stk').innerHTML = groups.length ? groups.map(([k,l]) => {
+    const its = items.filter(i=>i.oKey===k), n = its.length, obs = new Set(its.map(i=>i.obra)).size;
+    const segs = ST_ORDER.map(s => ({s, v: its.filter(i=>i.st===s).length})).filter(x=>x.v);
+    segs.forEach(x=>used.add(x.s));
+    return `<div class="stk-row"><div class="nm">${l}<small>${obs} obra${obs>1?'s':''} · ${n} ações</small></div>
+      <div class="stk">${segs.map(({s,v})=>`<span style="width:${v/n*100}%;background:${ST[s].color}" data-tip="<b>${l} · ${ST[s].label}</b><br>${v} de ${n} ações (${pct(v,n)}%)"></span>`).join('')}</div>
+      <div class="pc" data-tip="% de ações concluídas">${pct(its.filter(i=>i.st==='conc').length,n)}%</div></div>`;
+  }).join('') : '<div class="empty">Sem dados para o filtro.</div>';
+  $('#stkLg').innerHTML = ST_ORDER.filter(k=>used.has(k)).map(k=>`<span><i style="background:${ST[k].color}"></i>${ST[k].label}</span>`).join('');
+}
+
+function renderCols(items){
+  const dates = [...new Set(items.map(i=>i.fim).filter(Boolean))].sort();
+  if(!dates.length){ $('#cols').innerHTML = '<div class="empty" style="width:100%">Sem ações com término.</div>'; $('#xlab').innerHTML=''; $('#colsLg').innerHTML=''; return; }
+  const tISO = iso(today);
+  if(!dates.includes(tISO) && tISO>dates[0] && tISO<dates[dates.length-1]){ dates.push(tISO); dates.sort(); }
+  const data = dates.map(d => ({d, segs: ST_ORDER.map(s=>({s, v: items.filter(i=>i.fim===d && i.st===s).length})).filter(x=>x.v)}));
+  const tot = data.map(x=>x.segs.reduce((a,b)=>a+b.v,0)), max = Math.max(1,...tot);
+  const used = new Set(data.flatMap(x=>x.segs.map(s=>s.s)));
+  const peak = tot.indexOf(Math.max(...tot));
+  $('#cols').innerHTML = data.map((x,ix)=>`<div class="col ${x.d===tISO?'now':''}">
+      <div class="num">${ix===peak || (pd(x.d) < today && tot[ix]) ? tot[ix] : ''}</div>
+      <div class="bars"><div class="stackcol" style="height:${tot[ix]/max*100}%">${x.segs.map(s=>`<span style="flex:${s.v};background:${ST[s.s].color}" data-tip="<b>Término ${fDtY(x.d)}</b><br>${ST[s.s].label}: ${s.v} ações<br>Total no dia: ${tot[ix]}"></span>`).join('')}</div></div>
+    </div>`).join('');
+  $('#xlab').innerHTML = data.map(x=>{ const d = pd(x.d); return `<span style="${x.d===tISO?'color:var(--blue);font-weight:800':''}">${fDt(x.d)}<br><small>${WD[d.getDay()]}</small></span>`; }).join('');
+  $('#colsLg').innerHTML = ST_ORDER.filter(k=>used.has(k)).map(k=>`<span><i style="background:${ST[k].color}"></i>${ST[k].label}</span>`).join('');
+}
+
+function renderTipo(items){
+  const g = {}; items.forEach(i=>{ g[i.tipo] = g[i.tipo]||{n:0,c:0}; g[i.tipo].n++; if(i.st==='conc') g[i.tipo].c++; });
+  const rows = Object.entries(g).sort((a,b)=>b[1].n-a[1].n), max = Math.max(1,...rows.map(r=>r[1].n));
+  $('#hbTipo').innerHTML = rows.map(([t,o])=>`<div class="hb tall" data-tip="<b>${esc(t)}</b><br>${o.n} ações · ${o.c} concluídas (${pct(o.c,o.n)}%)"><span class="nm">${esc(t)}</span>
+    <span class="tr" style="display:flex;gap:2px;background:transparent"><b style="width:${o.c/max*100}%;background:var(--s-conc);border-radius:4px 0 0 4px;${o.c?'':'display:none'}"></b><b style="width:${(o.n-o.c)/max*100}%;${o.c?'border-radius:0 4px 4px 0':'border-radius:4px'}"></b></span><span class="v">${o.n}</span></div>`).join('') || '<div class="empty">—</div>';
+}
+
+function renderResp(items){
+  const g = {}; items.forEach(i=>{ (g[i.resp] = g[i.resp]||[]).push(i); });
+  const rows = Object.entries(g).sort((a,b)=>b[1].length-a[1].length), max = Math.max(1,...rows.map(r=>r[1].length));
+  const used = new Set(items.map(i=>i.st));
+  $('#respLg').innerHTML = ST_ORDER.filter(k=>used.has(k)).map(k=>`<span><i style="background:${ST[k].color}"></i>${ST[k].label}</span>`).join('');
+  $('#hbResp').innerHTML = rows.map(([r,its])=>{
+    const segs = ST_ORDER.map(s=>({s, v: its.filter(i=>i.st===s).length})).filter(x=>x.v);
+    const ob = new Set(its.map(i=>i.obra)).size, cc = its.filter(i=>i.st==='conc').length;
+    return `<div class="rp"><span class="av">${esc(initials(r))}</span><div class="rp-b"><div class="rp-h"><b>${esc(r)}</b><span>${its.length} ações · ${ob} obra${ob>1?'s':''} · ${pct(cc,its.length)}% entregue</span></div>
+      <div class="stk" style="height:12px;width:${Math.max(8,its.length/max*100)}%">${segs.map(({s,v})=>`<span style="width:${v/its.length*100}%;background:${ST[s].color}" data-tip="<b>${esc(r)} · ${ST[s].label}</b><br>${v} ações"></span>`).join('')}</div></div></div>`;
+  }).join('') || '<div class="empty">—</div>';
+}
+
+function cobMsg(r, its){
+  const late = its.filter(i=>i.st==='atr'||i.st==='par'), aten = its.filter(i=>i.st==='aten');
+  const line = i => `• ${i.nome} (${i.oLabel}) — ${i.acao} — término ${fDtY(i.fim)}${i.dias?` (${i.dias} dia${i.dias>1?'s':''} de atraso)`:''} — PEP ${i.pep}`;
+  return `Olá, ${r}!\n\nSegue sua posição no Plano de Encerramento de Obras · Equatorial Piauí (referência ${today.toLocaleDateString('pt-BR')}):\n` +
+    (late.length ? `\n⚠ ATRASADAS (${late.length}):\n${late.map(line).join('\n')}\n` : '') +
+    (aten.length ? `\n! ATENÇÃO (${aten.length}) — não iniciadas no prazo ou vencendo:\n${aten.map(line).join('\n')}\n` : '') +
+    `\nPor favor, atualize o status e informe a previsão de conclusão.\n— Plano de Encerramento de Obras · Equatorial Piauí`;
+}
+
+let COB = new Map();
+function renderCob(items){
+  const g = new Map();
+  items.filter(i=>['atr','par','aten','sp'].includes(i.st)).forEach(i=>{ if(!g.has(i.resp)) g.set(i.resp, []); g.get(i.resp).push(i); });
+  COB = g;
+  const list = [...g.entries()].map(([r,its])=>({r, its: its.sort((a,b)=>ST[b.st].sev-ST[a.st].sev || b.dias-a.dias || (a.fim||'').localeCompare(b.fim||'')),
+    nA: its.filter(i=>i.st==='atr'||i.st==='par').length, nW: its.filter(i=>i.st==='aten').length, maxD: Math.max(0,...its.map(i=>i.dias)),
+    total: ITEMS.filter(i=>i.resp===r && i.st!=='conc').length}))
+    .sort((a,b)=> b.nA-a.nA || b.maxD-a.maxD || b.nW-a.nW);
+  $('#cobCt').textContent = list.length;
+  $('#cob').innerHTML = list.length ? list.map(p=>`<article class="cob ${p.nA?'':'aten'}">
+    <div class="top"><div class="who" style="background:none;padding:0"><span class="av" style="width:42px;height:42px;font-size:14px">${esc(initials(p.r))}</span><div class="nm" style="font-size:15px">${esc(p.r)}<small>${p.total} ações em aberto no plano</small></div></div>
+      <div class="late">${p.nA?`<b>${p.nA}</b><span>atrasada${p.nA>1?'s':''}</span>`:`<b>${p.nW}</b><span>atenção</span>`}</div></div>
+    <div class="cnt">${p.nA?`<span class="pill p-atr"><i>⚠</i>${p.nA} atrasada${p.nA>1?'s':''}</span>`:''}${p.nW?`<span class="pill p-aten"><i>!</i>${p.nW} em atenção</span>`:''}${p.maxD?`<span class="pill p-sp">maior atraso ${p.maxD} d</span>`:''}</div>
+    <ul class="acts">${p.its.slice(0,4).map(i=>`<li><span class="dotst" style="background:${ST[i.st].color}"></span><div><b>${esc(i.acao)}</b><small>${esc(i.nome)} · ${i.oLabel}</small><small class="${i.st==='atr'?'bad':''}">${esc(i.motivos[0]||'')} · término ${fDt(i.fim)}</small></div></li>`).join('')}
+      ${p.its.length>4?`<li class="more-li">+ ${p.its.length-4} ${p.its.length-4>1?'outras ações':'outra ação'} na mensagem</li>`:''}</ul>
+    <div class="ft"><button class="btn btn-light" type="button" data-resp="${esc(p.r)}">🔎 Ver ações</button><button class="btn btn-primary" type="button" data-copy="${esc(p.r)}">📋 Copiar cobrança</button></div>
+  </article>`).join('') : '<div class="card empty">🎉 Nenhum responsável com pendência no filtro atual.</div>';
+}
+
+const COLS = [
+  {k:'nome', l:'Obra / projeto'}, {k:'resps', l:'Responsáveis'}, {k:'n', l:'Ações'},
+  {k:'ini', l:'Início'}, {k:'fim', l:'Término'}, {k:'prog', l:'Entrega'}, {k:'sev', l:'Status'}, {k:'nAtr', l:'Pendências'}];
+
+function renderTable(){
+  $('#obCt').textContent = OBRAS.length;
+  const {key,dir} = sortState;
+  const val = o => key==='resps' ? o.resps.join() : o[key] ?? '';
+  const rows = [...OBRAS].sort((a,b)=>{ const x=val(a), y=val(b); const r = typeof x==='number'&&typeof y==='number' ? x-y : String(x).localeCompare(String(y),'pt-BR'); return r*dir || b.nAtr-a.nAtr || b.nAten-a.nAten; });
+  $('#tbl thead').innerHTML = `<tr><th style="width:28px"></th>${COLS.map(c=>`<th data-sort="${c.k}">${c.l}<span class="ar">${key===c.k?(dir>0?'▲':'▼'):'↕'}</span></th>`).join('')}</tr>`;
+  if(!rows.length){ $('#tbl tbody').innerHTML = `<tr><td colspan="9" class="empty">Nenhuma obra encontrada para os filtros selecionados.</td></tr>`; return; }
+  $('#tbl tbody').innerHTML = rows.map(o => {
+    const open = openSet.has(o.obra);
+    return `<tr class="ob is-${o.st} ${open?'open':''}" data-ob="${esc(o.obra)}">
+      <td><span class="caret">▶</span></td>
+      <td><div class="oname"><span class="tag-o o-${o.oKey}">${o.oLabel}</span>${esc(o.nome)}<small>${o.peps} PEP${o.peps>1?'s':''}${o.ano?' · '+o.ano:''}</small></div></td>
+      <td data-tip="${esc(o.resps.join(' · '))}">${o.resps.slice(0,2).map(r=>`<div style="white-space:nowrap">${esc(r)}</div>`).join('')}${o.resps.length>2?`<small style="color:var(--muted);font-weight:700">+${o.resps.length-2} responsáve${o.resps.length-2>1?'is':'l'}</small>`:''}</td>
+      <td style="font-weight:800;text-align:center">${o.n}</td>
+      <td class="dt">${fDtY(o.ini)}</td>
+      <td class="dt"><span class="${o.st==='atr'?'bad':''}">${fDtY(o.fim)}</span></td>
+      <td><div class="prog" data-tip="${o.nConc} de ${o.n} ações concluídas"><span class="tr"><b style="width:${o.prog}%"></b></span><span>${o.prog}%</span></div></td>
+      <td>${pill(o.st)}</td>
+      <td>${o.nAtr?`<span class="days">${o.nAtr} atrasada${o.nAtr>1?'s':''}</span>`:''}${o.nAten?`<div style="color:var(--s-aten);font-weight:700;white-space:nowrap">${o.nAten} em atenção</div>`:''}${!o.nAtr&&!o.nAten?'<span style="color:var(--muted)">—</span>':''}</td>
+    </tr>${open?detail(o):''}`;
+  }).join('');
+}
+function detail(o){
+  return `<tr class="det"><td colspan="9"><div class="det-in"><table>
+    <thead><tr><th>Ação</th><th>Responsável</th><th>Início</th><th>Término</th><th>Status (planilha)</th><th>Situação</th><th>Observação</th><th>PEP</th></tr></thead>
+    <tbody>${o.itens.map(i=>`<tr>
+      <td style="font-weight:600">${esc(i.acao)}</td><td>${esc(i.resp)}</td>
+      <td class="dt">${fDtY(i.ini)}</td><td class="dt"><span class="${i.st==='atr'?'bad':''}">${fDtY(i.fim)}</span></td>
+      <td>${esc(tc(i.status||'—'))}</td><td>${pill(i.st)}</td>
+      <td style="color:var(--ink2);font-size:12px">${i.motivos.map(esc).join('<br>')||'—'}</td><td class="mono">${esc(i.pep)}</td></tr>`).join('')}</tbody></table></div></td></tr>`;
+}
+
+function renderRules(){
+  const R = {
+    conc:'Status da planilha “CONCLUÍDO”.',
+    dia:'Ainda não concluída, com início e término dentro do prazo.',
+    aten:'Ainda dentro do prazo, mas “NÃO INICIADO” com a data de início já passada, ou término vencendo em até 2 dias.',
+    atr:'Data de término já passou e a ação não foi concluída. Os dias de atraso contam a partir do término.',
+    par:'Status da planilha “PARALISADO” (quando existir).',
+    sp:'Ação sem data de término na planilha.'};
+  $('#rules').innerHTML = ST_ORDER.map(k=>`<div class="rule">${pill(k)}<div>${R[k]}</div></div>`).join('') +
+    `<div class="rule"><b>Data de referência</b><div>Sempre o dia em que o painel é aberto (hoje: ${today.toLocaleDateString('pt-BR')}). Os alertas mudam sozinhos com o passar dos dias.</div></div>`;
+}
+
+/* ---------- EVENTOS ---------- */
+let qT;
+$('#fQ').addEventListener('input', e => { clearTimeout(qT); qT = setTimeout(()=>{ F.q = e.target.value; render(); }, 150); });
+$('#fObra').addEventListener('change', e => { F.obra = e.target.value; render(); });
+$('#fResp').addEventListener('change', e => { F.resp = e.target.value; render(); });
+$('#fTipo').addEventListener('change', e => { F.tipo = e.target.value; render(); });
+$('#fClr').addEventListener('click', () => { F.q=''; F.obra=''; F.resp=''; F.tipo=''; F.st.clear(); F.prox=false; ['#fQ','#fObra','#fResp','#fTipo'].forEach(s=>$(s).value=''); render(); });
+document.addEventListener('click', e => {
+  const kp = e.target.closest('[data-kpi]');
+  if(kp){
+    const k = kp.dataset.kpi, wasActive = kp.classList.contains('active');
+    F.st.clear(); F.prox = false;
+    if(!wasActive){ if(k==='atr'){ F.st.add('atr'); F.st.add('par'); } else if(k==='prox') F.prox = true; else if(k!=='obras') F.st.add(k); }
+    openSet.clear(); render();
+    if(k!=='obras' && !wasActive){ OBRAS.forEach(o=>openSet.add(o.obra)); renderTable(); }
+    $('#obras').scrollIntoView({behavior:'smooth'});
+    return;
+  }
+  if(e.target.closest('[data-prox]')){ F.prox = false; render(); return; }
+  const st = e.target.closest('[data-st]');
+  if(st){ const k = st.dataset.st; F.st.has(k) ? F.st.delete(k) : F.st.add(k); render(); return; }
+  const th = e.target.closest('th[data-sort]');
+  if(th){ const k = th.dataset.sort; sortState.dir = sortState.key===k ? -sortState.dir : (['nome','resps','ini','fim'].includes(k)?1:-1); sortState.key = k; renderTable(); return; }
+  const tr = e.target.closest('tr.ob');
+  if(tr){ const k = tr.dataset.ob; openSet.has(k) ? openSet.delete(k) : openSet.add(k); renderTable(); return; }
+  const cp = e.target.closest('[data-copy]');
+  if(cp){ const its = COB.get(cp.dataset.copy); if(its) copyText(cobMsg(cp.dataset.copy, its), cp); return; }
+  const rv = e.target.closest('[data-resp]');
+  if(rv){ F.resp = rv.dataset.resp; $('#fResp').value = F.resp; OBRAS.forEach(o=>openSet.delete(o.obra)); render(); OBRAS.forEach(o=>openSet.add(o.obra)); renderTable(); $('#obras').scrollIntoView({behavior:'smooth'}); return; }
+});
+$('#btnAll').addEventListener('click', e => {
+  const all = OBRAS.every(o=>openSet.has(o.obra));
+  OBRAS.forEach(o => all ? openSet.delete(o.obra) : openSet.add(o.obra));
+  e.target.textContent = all ? 'Expandir tudo' : 'Recolher tudo'; renderTable();
+});
+async function copyText(t, btn){
+  try{ await navigator.clipboard.writeText(t); }
+  catch{ const ta = document.createElement('textarea'); ta.value=t; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); }
+  const o = btn.textContent; btn.textContent = '✓ Copiado!'; setTimeout(()=>btn.textContent=o, 1600);
+}
+$('#btnExp').addEventListener('click', () => {
+  const H = ['Projeto','Obra','PEP','Ação','Tipo de ação','Responsável','Início','Término','Status (planilha)','Situação','Dias de atraso','Observação'];
+  const rows = filtered().map(i=>[i.oLabel,i.obra,i.pep,i.acao,i.tipo,i.resp,fDtY(i.ini),fDtY(i.fim),i.status,ST[i.st].label,i.dias,i.motivos.join(' | ')]);
+  const csv = [H,...rows].map(r=>r.map(v=>{ const s = v==null?'':String(v); return /[;"\n]/.test(s)?`"${s.replace(/"/g,'""')}"`:s; }).join(';')).join('\r\n');
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob(['﻿'+csv],{type:'text/csv;charset=utf-8'}));
+  a.download = `painel-ente-pi_${iso(today)}.csv`; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href), 1000);
+});
+
+/* tooltip */
+const tip = $('#tip');
+document.addEventListener('mousemove', e => {
+  const t = e.target.closest('[data-tip]');
+  if(!t){ tip.classList.remove('on'); return; }
+  tip.innerHTML = t.dataset.tip; tip.classList.add('on');
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = e.clientX + 14, y = e.clientY + 14;
+  if(x + w > innerWidth - 8) x = e.clientX - w - 14;
+  if(y + h > innerHeight - 8) y = e.clientY - h - 14;
+  tip.style.left = x+'px'; tip.style.top = y+'px';
+});
+
+/* ---------- ATUALIZAÇÃO (planilha → GitHub) ---------- */
+const store = { get(k){ try{ return localStorage.getItem(k); }catch{ return null; } }, set(k,v){ try{ v==null ? localStorage.removeItem(k) : localStorage.setItem(k,v); }catch{} } };
+let NEW = null;
+const pMsg = (t, cls) => { const m = $('#pMsg'); m.className = 'msg on '+cls; m.innerHTML = t; };
+
+function ghDefaults(){
+  let saved = {}; try{ saved = JSON.parse(store.get('painelEnte.gh') || '{}'); }catch{}
+  let owner = saved.owner || '', repo = saved.repo || '';
+  if(!owner && /\.github\.io$/i.test(location.hostname)){
+    owner = location.hostname.split('.')[0];
+    const seg = location.pathname.split('/').filter(Boolean)[0];
+    repo = seg && !/\.html?$/i.test(seg) ? seg : `${owner}.github.io`;
+  }
+  $('#gOwner').value = owner; $('#gRepo').value = repo;
+  $('#gBranch').value = saved.branch || 'main'; $('#gPath').value = saved.path || 'dados.json';
+  const tk = store.get('painelEnte.token'); $('#gToken').value = tk || ''; $('#gRemember').checked = !!tk;
+  if(!owner || !repo) $('#ghBox').open = true;
+}
+function openModal(){ ghDefaults(); $('#modal').classList.add('on'); }
+function closeModal(){ $('#modal').classList.remove('on'); }
+$('#btnUpd').addEventListener('click', openModal);
+$('#mClose').addEventListener('click', closeModal);
+$('#modal').addEventListener('click', e => { if(e.target.id==='modal') closeModal(); });
+document.addEventListener('keydown', e => { if(e.key==='Escape') closeModal(); });
+
+const drop = $('#drop');
+['dragenter','dragover'].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add('over'); }));
+['dragleave','drop'].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove('over'); }));
+drop.addEventListener('drop', e => { const f = e.dataTransfer.files[0]; if(f) readFile(f); });
+$('#file').addEventListener('change', e => { const f = e.target.files[0]; if(f) readFile(f); });
+
+function loadXLSX(){
+  if(window.XLSX) return Promise.resolve();
+  return new Promise((res, rej) => { const s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
+    s.onload = res; s.onerror = () => rej(new Error('Não foi possível carregar o leitor de Excel (verifique a internet).')); document.head.appendChild(s); });
+}
+const KEYS = {'ID':'id','PEP':'pep','OBRA':'obra','ACAO':'acao','RESPONSAVEL':'resp','INICIO':'ini','TERMINO':'fim','STATUS':'status'};
+const DATE_K = new Set(['ini','fim']);
+const REQUIRED = {obra:'OBRA', acao:'AÇÃO', resp:'RESPONSÁVEL', ini:'INÍCIO', fim:'TÉRMINO', status:'STATUS'};
+function toISO(v){
+  if(v==null || v==='') return null;
+  if(typeof v==='number'){ const d = new Date(Math.round((v-25569)*DAY)); return d.toISOString().slice(0,10); }
+  if(v instanceof Date) return iso(v);
+  const s = String(v).trim(); let m;
+  if((m = s.match(/^(\d{4})-(\d{2})-(\d{2})/))) return `${m[1]}-${m[2]}-${m[3]}`;
+  if((m = s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2,4})$/))) return `${m[3].length===2?'20'+m[3]:m[3]}-${m[2].padStart(2,'0')}-${m[1].padStart(2,'0')}`;
+  return null;
+}
+
+async function readFile(file){
+  $('#fileName').textContent = file.name; NEW = null; $('#bLocal').disabled = $('#bPub').disabled = true; $('#prev').hidden = true;
+  pMsg('Lendo planilha…', 'info');
+  try{
+    await loadXLSX();
+    const wb = XLSX.read(await file.arrayBuffer(), {type:'array'});
+    const meta = (wb.Workbook && wb.Workbook.Sheets) || [];
+    const visible = wb.SheetNames.filter((n,i) => !(meta[i] && meta[i].Hidden));   // 0 = visível; 1/2 = oculta
+    let rows = null, hIdx = -1, aba = '';
+    for(const sn of visible){
+      const r = XLSX.utils.sheet_to_json(wb.Sheets[sn], {header:1, raw:true, defval:null});
+      const i = r.slice(0,15).findIndex(row => { const n = (row||[]).map(norm); return n.includes('OBRA') && n.includes('ACAO'); });
+      if(i>=0){ rows = r; hIdx = i; aba = sn; break; }
+    }
+    if(!rows) throw new Error('Nenhuma aba visível com as colunas OBRA e AÇÃO foi encontrada.');
+    const idx = {};
+    rows[hIdx].forEach((h,i) => { const k = KEYS[norm(h)]; if(k && idx[k]==null) idx[k] = i; });
+    const miss = Object.keys(REQUIRED).filter(k => idx[k]==null);
+    if(miss.length) throw new Error('Colunas obrigatórias ausentes: '+miss.map(k=>REQUIRED[k]).join(', '));
+    const recs = rows.slice(hIdx+1).filter(r => r && r[idx.obra]).map(r => {
+      const o = {};
+      for(const [k,i] of Object.entries(idx)){
+        const v = r[i];
+        o[k] = DATE_K.has(k) ? toISO(v) : (v==null ? null : (String(v).replace(/ /g,' ').replace(/\s+/g,' ').trim() || null));
+      }
+      if(o.id==null) delete o.id;
+      return o;
+    });
+    if(!recs.length) throw new Error('A aba não tem linhas de dados.');
+    const n = new Date();
+    NEW = {fonte:file.name, aba, atualizadoEm:`${iso(n)}T${n.toTimeString().slice(0,8)}`, registros:recs};
+    const cl = recs.map(classify), c = k => cl.filter(x=>x.k===k).length;
+    const ign = wb.SheetNames.length - visible.length;
+    $('#prev').innerHTML = `<div><b>${new Set(recs.map(r=>r.obra)).size}</b><span>obras</span></div><div><b>${recs.length}</b><span>ações</span></div><div><b style="color:var(--s-conc)">${c('conc')}</b><span>concluídas</span></div><div><b style="color:var(--s-atr)">${c('atr')+c('par')}</b><span>atrasadas</span></div>`;
+    $('#prev').hidden = false;
+    pMsg(`✓ Aba “${esc(aba)}” lida${ign?` (${ign} aba${ign>1?'s':''} oculta${ign>1?'s':''} ignorada${ign>1?'s':''})`:''}. Confira o resumo e clique em <b>Subir e publicar no GitHub</b>.`, 'ok');
+    $('#bLocal').disabled = $('#bPub').disabled = false;
+  }catch(err){ pMsg('✕ '+esc(err.message), 'err'); }
+}
+
+$('#bLocal').addEventListener('click', () => { if(!NEW) return; prepare(NEW); closeModal(); });
+
+function b64utf8(str){ const b = new TextEncoder().encode(str); let s=''; for(let i=0;i<b.length;i+=0x8000) s += String.fromCharCode.apply(null, b.subarray(i,i+0x8000)); return btoa(s); }
+
+$('#bPub').addEventListener('click', async () => {
+  if(!NEW) return;
+  const cfg = {owner:$('#gOwner').value.trim(), repo:$('#gRepo').value.trim(), branch:$('#gBranch').value.trim()||'main', path:($('#gPath').value.trim()||'dados.json').replace(/^\/+/,'')};
+  const token = $('#gToken').value.trim();
+  if(!cfg.owner || !cfg.repo || !token){ $('#ghBox').open = true; pMsg('Preencha usuário/organização, repositório e token do GitHub.', 'err'); return; }
+  store.set('painelEnte.gh', JSON.stringify(cfg)); store.set('painelEnte.token', $('#gRemember').checked ? token : null);
+  const api = `https://api.github.com/repos/${encodeURIComponent(cfg.owner)}/${encodeURIComponent(cfg.repo)}/contents/${cfg.path.split('/').map(encodeURIComponent).join('/')}`;
+  const H = {'Authorization':`Bearer ${token}`, 'Accept':'application/vnd.github+json', 'X-GitHub-Api-Version':'2022-11-28'};
+  $('#bPub').disabled = true; pMsg('Enviando para o GitHub…', 'info');
+  try{
+    let sha;
+    const g = await fetch(`${api}?ref=${encodeURIComponent(cfg.branch)}`, {headers:H, cache:'no-store'});
+    if(g.ok) sha = (await g.json()).sha;
+    else if(g.status!==404) throw new Error(g.status===401 ? 'Token inválido ou expirado.' : g.status===403 ? 'Token sem permissão de escrita neste repositório.' : `Erro ${g.status} ao consultar o repositório.`);
+    const body = {message:`Atualiza painel ENTE PI: ${NEW.fonte} (${new Date().toLocaleString('pt-BR')})`, content:b64utf8(JSON.stringify(NEW, null, 1)), branch:cfg.branch};
+    if(sha) body.sha = sha;
+    const p = await fetch(api, {method:'PUT', headers:{...H,'Content-Type':'application/json'}, body:JSON.stringify(body)});
+    if(!p.ok){ const j = await p.json().catch(()=>({})); throw new Error(`GitHub recusou (${p.status}): ${j.message||'erro desconhecido'}`); }
+    const j = await p.json();
+    prepare(NEW);
+    pMsg(`✓ Publicado! <a href="${esc(j.commit?.html_url||'#')}" target="_blank" rel="noopener">Ver commit</a>. O site no GitHub Pages atualiza em ~1 minuto para todos.`, 'ok');
+  }catch(err){ pMsg('✕ '+esc(err.message), 'err'); }
+  finally{ $('#bPub').disabled = false; }
+});
+
+/* ---------- BOOT ---------- */
+(async () => {
+  let d = null;
+  try{ const r = await fetch('dados.json?v='+Date.now(), {cache:'no-store'}); if(r.ok) d = await r.json(); }catch{}
+  if(!d) d = window.SEED;
+  if(!d || !d.registros){ $('#alert').innerHTML = '<div class="alert"><div class="ic">!</div><div class="tx"><b>Sem dados carregados</b><span>Clique em “Atualizar planilha” e anexe o arquivo base.</span></div></div>'; return; }
+  prepare(d);
+})();
+})();
+</script>
+</body>
+</html>
